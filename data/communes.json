@@ -1,0 +1,472 @@
+{
+    "communes":[
+       {
+          "nomCourt":"Cinkassé 1",
+          "nomComplet":"Commune de Cinkassé 1"
+       },
+       {
+          "nomCourt":"Cinkassé 2",
+          "nomComplet":"Commune de Cinkassé 2"
+       },
+       {
+          "nomCourt":"Tône 1",
+          "nomComplet":"Commune de Tône 1"
+       },
+       {
+          "nomCourt":"Tône 2",
+          "nomComplet":"Commune de Tône 2"
+       },
+       {
+          "nomCourt":"Tône 3",
+          "nomComplet":"Commune de Tône 3"
+       },
+       {
+          "nomCourt":"Tône 4",
+          "nomComplet":"Commune de Tône 4"
+       },
+       {
+          "nomCourt":"Kpendjal 1",
+          "nomComplet":"Commune de Kpendjal 1"
+       },
+       {
+          "nomCourt":"Kpendjal 2",
+          "nomComplet":"Commune de Kpendjal 2"
+       },
+       {
+          "nomCourt":"Kpendjal-Ouest 1",
+          "nomComplet":"Commune de Kpendjal-Ouest 1"
+       },
+       {
+          "nomCourt":"Kpendjal-Ouest 2",
+          "nomComplet":"Commune de Kpendjal-Ouest 2"
+       },
+       {
+          "nomCourt":"Oti 1",
+          "nomComplet":"Commune de Oti 1"
+       },
+       {
+          "nomCourt":"Oti 2",
+          "nomComplet":"Commune de Oti 2"
+       },
+       {
+          "nomCourt":"Oti-Sud 1",
+          "nomComplet":"Commune de Oti-Sud 1"
+       },
+       {
+          "nomCourt":"Oti-Sud 2",
+          "nomComplet":"Commune de Oti-Sud 2"
+       },
+       {
+          "nomCourt":"Tandjoaré 1",
+          "nomComplet":"Commune de Tandjoaré 1"
+       },
+       {
+          "nomCourt":"Tandjoaré 2",
+          "nomComplet":"Commune de Tandjoaré 2"
+       },
+       {
+          "nomCourt":"Kéran 1",
+          "nomComplet":"Commune de Kéran 1"
+       },
+       {
+          "nomCourt":"Kéran 2",
+          "nomComplet":"Commune de Kéran 2"
+       },
+       {
+          "nomCourt":"Kéran 3",
+          "nomComplet":"Commune de Kéran 3"
+       },
+       {
+          "nomCourt":"Bassar 1",
+          "nomComplet":"Commune de Bassar 1"
+       },
+       {
+          "nomCourt":"Bassar 2",
+          "nomComplet":"Commune de Bassar 2"
+       },
+       {
+          "nomCourt":"Bassar 3",
+          "nomComplet":"Commune de Bassar 3"
+       },
+       {
+          "nomCourt":"Bassar 4",
+          "nomComplet":"Commune de Bassar 4"
+       },
+       {
+          "nomCourt":"Dankpen 1",
+          "nomComplet":"Commune de Dankpen 1"
+       },
+       {
+          "nomCourt":"Dankpen 2",
+          "nomComplet":"Commune de Dankpen 2"
+       },
+       {
+          "nomCourt":"Dankpen 3",
+          "nomComplet":"Commune de Dankpen 3"
+       },
+       {
+          "nomCourt":"Kozah 1",
+          "nomComplet":"Commune de Kozah 1"
+       },
+       {
+          "nomCourt":"Kozah 2",
+          "nomComplet":"Commune de Kozah 2"
+       },
+       {
+          "nomCourt":"Kozah 3",
+          "nomComplet":"Commune de Kozah 3"
+       },
+       {
+          "nomCourt":"Kozah 4",
+          "nomComplet":"Commune de Kozah 4"
+       },
+       {
+          "nomCourt":"Binah 1",
+          "nomComplet":"Commune de Binah 1"
+       },
+       {
+          "nomCourt":"Binah 2",
+          "nomComplet":"Commune de Binah 2"
+       },
+       {
+          "nomCourt":"Doufelgou 1",
+          "nomComplet":"Commune de Doufelgou 1"
+       },
+       {
+          "nomCourt":"Doufelgou 2",
+          "nomComplet":"Commune de Doufelgou 2"
+       },
+       {
+          "nomCourt":"Doufelgou 3",
+          "nomComplet":"Commune de Doufelgou 3"
+       },
+       {
+          "nomCourt":"Assoli 1",
+          "nomComplet":"Commune d'Assoli 1"
+       },
+       {
+          "nomCourt":"Assoli 2",
+          "nomComplet":"Commune d'Assoli 2"
+       },
+       {
+          "nomCourt":"Assoli 3",
+          "nomComplet":"Commune d'Assoli 3"
+       },
+       {
+          "nomCourt":"Tchaoudjo 1",
+          "nomComplet":"Commune de Tchaoudjo 1"
+       },
+       {
+          "nomCourt":"Tchaoudjo 2",
+          "nomComplet":"Commune de Tchaoudjo 2"
+       },
+       {
+          "nomCourt":"Tchaoudjo 3",
+          "nomComplet":"Commune de Tchaoudjo 3"
+       },
+       {
+          "nomCourt":"Tchaoudjo 4",
+          "nomComplet":"Commune de Tchaoudjo 4"
+       },
+       {
+          "nomCourt":"Sotouboua 1",
+          "nomComplet":"Commune de Sotouboua 1"
+       },
+       {
+          "nomCourt":"Sotouboua 2",
+          "nomComplet":"Commune de Sotouboua 2"
+       },
+       {
+          "nomCourt":"Sotouboua 3",
+          "nomComplet":"Commune de Sotouboua 3"
+       },
+       {
+          "nomCourt":"Tchamba 1",
+          "nomComplet":"Commune de Tchamba 1"
+       },
+       {
+          "nomCourt":"Tchamba 2",
+          "nomComplet":"Commune de Tchamba 2"
+       },
+       {
+          "nomCourt":"Tchamba 3",
+          "nomComplet":"Commune de Tchamba 3"
+       },
+       {
+          "nomCourt":"Mô 1",
+          "nomComplet":"Commune de Mô 1"
+       },
+       {
+          "nomCourt":"Mô 2",
+          "nomComplet":"Commune de Mô 2"
+       },
+       {
+          "nomCourt":"Blitta 1",
+          "nomComplet":"Commune de Blitta 1"
+       },
+       {
+          "nomCourt":"Blitta 2",
+          "nomComplet":"Commune de Blitta 2"
+       },
+       {
+          "nomCourt":"Blitta 3",
+          "nomComplet":"Commune de Blitta 3"
+       },
+       {
+          "nomCourt":"Anié 1",
+          "nomComplet":"Commune d'Anié 1"
+       },
+       {
+          "nomCourt":"Anié 2",
+          "nomComplet":"Commune d'Anié 2"
+       },
+       {
+          "nomCourt":"Est-Mono 1",
+          "nomComplet":"Commune d'Est-Mono 1"
+       },
+       {
+          "nomCourt":"Est-Mono 2",
+          "nomComplet":"Commune d'Est-Mono 2"
+       },
+       {
+          "nomCourt":"Est-Mono 3",
+          "nomComplet":"Commune d'Est-Mono 3"
+       },
+       {
+          "nomCourt":"Moyen-Mono 1",
+          "nomComplet":"Commune de Moyen-Mono 1"
+       },
+       {
+          "nomCourt":"Moyen-Mono 2",
+          "nomComplet":"Commune de Moyen-Mono 2"
+       },
+       {
+          "nomCourt":"Agou 1",
+          "nomComplet":"Commune de Agou 1"
+       },
+       {
+          "nomCourt":"Agou 2",
+          "nomComplet":"Commune de Agou 2"
+       },
+       {
+          "nomCourt":"Danyi 1",
+          "nomComplet":"Commune de Danyi 1"
+       },
+       {
+          "nomCourt":"Danyi 2",
+          "nomComplet":"Commune de Danyi 2"
+       },
+       {
+          "nomCourt":"Akébou 1",
+          "nomComplet":"Commune d'Akébou 1"
+       },
+       {
+          "nomCourt":"Akébou 2",
+          "nomComplet":"Commune d'Akébou 2"
+       },
+       {
+          "nomCourt":"Kpélé 1",
+          "nomComplet":"Commune de Kpélé 1"
+       },
+       {
+          "nomCourt":"Kpélé 2",
+          "nomComplet":"Commune de Kpélé 2"
+       },
+       {
+          "nomCourt":"Kloto 1",
+          "nomComplet":"Commune de Kloto 1"
+       },
+       {
+          "nomCourt":"Kloto 2",
+          "nomComplet":"Commune de Kloto 2"
+       },
+       {
+          "nomCourt":"Kloto 3",
+          "nomComplet":"Commune de Kloto 3"
+       },
+       {
+          "nomCourt":"l'Ogou 1",
+          "nomComplet":"Commune de l'Ogou 1"
+       },
+       {
+          "nomCourt":"l'Ogou 2",
+          "nomComplet":"Commune de l'Ogou 2"
+       },
+       {
+          "nomCourt":"l'Ogou 3",
+          "nomComplet":"Commune de l'Ogou 3"
+       },
+       {
+          "nomCourt":"l'Ogou 4",
+          "nomComplet":"Commune de l'Ogou 4"
+       },
+       {
+          "nomCourt":"Amou 1",
+          "nomComplet":"Commune d'Amou 1"
+       },
+       {
+          "nomCourt":"Amou 2",
+          "nomComplet":"Commune d'Amou 2"
+       },
+       {
+          "nomCourt":"Amou 3",
+          "nomComplet":"Commune d'Amou 3"
+       },
+       {
+          "nomCourt":"Wawa 1",
+          "nomComplet":"Commune de Wawa 1"
+       },
+       {
+          "nomCourt":"Wawa 2",
+          "nomComplet":"Commune de Wawa 2"
+       },
+       {
+          "nomCourt":"Wawa 3",
+          "nomComplet":"Commune de Wawa 3"
+       },
+       {
+          "nomCourt":"Haho 1",
+          "nomComplet":"Commune de Haho 1"
+       },
+       {
+          "nomCourt":"Haho 2",
+          "nomComplet":"Commune de Haho 2"
+       },
+       {
+          "nomCourt":"Haho 3",
+          "nomComplet":"Commune de Haho 3"
+       },
+       {
+          "nomCourt":"Haho 4",
+          "nomComplet":"Commune de Haho 4"
+       },
+       {
+          "nomCourt":"Avé 1",
+          "nomComplet":"Commune d'Avé 1"
+       },
+       {
+          "nomCourt":"Avé 2",
+          "nomComplet":"Commune d'Avé 2"
+       },
+       {
+          "nomCourt":"Bas-Mono 1",
+          "nomComplet":"Commune de Bas-Mono 1"
+       },
+       {
+          "nomCourt":"Bas-Mono 2",
+          "nomComplet":"Commune de Bas-Mono 2"
+       },
+       {
+          "nomCourt":"Yoto 1",
+          "nomComplet":"Commune de Yoto 1"
+       },
+       {
+          "nomCourt":"Yoto 2",
+          "nomComplet":"Commune de Yoto 2"
+       },
+       {
+          "nomCourt":"Yoto 3",
+          "nomComplet":"Commune de Yoto 3"
+       },
+       {
+          "nomCourt":"Vo 1",
+          "nomComplet":"Commune de Vo 1"
+       },
+       {
+          "nomCourt":"Vo 2",
+          "nomComplet":"Commune de Vo 2"
+       },
+       {
+          "nomCourt":"Vo 3",
+          "nomComplet":"Commune de Vo 3"
+       },
+       {
+          "nomCourt":"Vo 4",
+          "nomComplet":"Commune de Vo 4"
+       },
+       {
+          "nomCourt":"Lacs 1",
+          "nomComplet":"Commune des Lacs 1"
+       },
+       {
+          "nomCourt":"Lacs 2",
+          "nomComplet":"Commune des Lacs 2"
+       },
+       {
+          "nomCourt":"Lacs 3",
+          "nomComplet":"Commune des Lacs 3"
+       },
+       {
+          "nomCourt":"Lacs 4",
+          "nomComplet":"Commune des Lacs 4"
+       },
+       {
+          "nomCourt":"Zio 1",
+          "nomComplet":"Commune de Zio 1"
+       },
+       {
+          "nomCourt":"Zio 2",
+          "nomComplet":"Commune de Zio 2"
+       },
+       {
+          "nomCourt":"Zio 3",
+          "nomComplet":"Commune de Zio 3"
+       },
+       {
+          "nomCourt":"Zio 4",
+          "nomComplet":"Commune de Zio 4"
+       },
+       {
+          "nomCourt":"Agoè-Nyivé 1",
+          "nomComplet":"Commune d'Agoè-Nyivé 1"
+       },
+       {
+          "nomCourt":"Agoè-Nyivé 2",
+          "nomComplet":"Commune d'Agoè-Nyivé 2"
+       },
+       {
+          "nomCourt":"Agoè-Nyivé 3",
+          "nomComplet":"Commune d'Agoè-Nyivé 3"
+       },
+       {
+          "nomCourt":"Agoè-Nyivé 4",
+          "nomComplet":"Commune d'Agoè-Nyivé 4"
+       },
+       {
+          "nomCourt":"Agoè-Nyivé 5",
+          "nomComplet":"Commune d'Agoè-Nyivé 5"
+       },
+       {
+          "nomCourt":"Agoè-Nyivé 6",
+          "nomComplet":"Commune d'Agoè-Nyivé 6"
+       },
+       {
+          "nomCourt":"Golfe 1",
+          "nomComplet":"Commune de Golfe 1"
+       },
+       {
+          "nomCourt":"Golfe 2",
+          "nomComplet":"Commune de Golfe 2"
+       },
+       {
+          "nomCourt":"Golfe 3",
+          "nomComplet":"Commune de Golfe 3"
+       },
+       {
+          "nomCourt":"Golfe 4",
+          "nomComplet":"Commune de Golfe 4"
+       },
+       {
+          "nomCourt":"Golfe 5",
+          "nomComplet":"Commune de Golfe 5"
+       },
+       {
+          "nomCourt":"Golfe 6",
+          "nomComplet":"Commune de Golfe 6"
+       },
+       {
+          "nomCourt":"Golfe 7",
+          "nomComplet":"Commune de Golfe 7"
+       }
+    ]
+ }
