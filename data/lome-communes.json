@@ -1,14 +1,12 @@
 {
-    "nomCourt": "District de Lomé",
-    "nomComplet": "District Autonome de Lomé",
+    "nom": "District Autonome de Lomé",
     "communes": [
         {
-            "nomCourt": "Golfe 1",
-            "nomComplet": "Commune du Golfe 1",
+            "nom": "Commune du Golfe 1",
             "canton": "Bè",
             "chefLieu": "Bè-Afédomé",
-            "superficie": 6066,
-            "population": 496870,
+            "superficie": 6066.0,
+            "population": 496870.0,
             "lat": 6.13748,
             "lon": 1.21227,
             "quartiers": [
@@ -50,11 +48,10 @@
             ]
         },
         {
-            "nomCourt": "Golfe 2",
-            "nomComplet": "Commune du Golfe 2",
+            "nom": "Commune du Golfe 2",
             "canton": "Bè Centre",
             "chefLieu": "Hédzranawoé",
-            "population": 150000,
+            "population": 150000.0,
             "lat": 6.13748,
             "lon": 1.21227,
             "quartiers": [
@@ -69,8 +66,7 @@
             ]
         },
         {
-            "nomCourt": "Golfe 3",
-            "nomComplet": "Commune du Golfe 3",
+            "nom": "Commune du Golfe 3",
             "canton": "Bè-Ouest",
             "chefLieu": "Doumasséssé",
             "superficie": 17.0,
@@ -89,8 +85,7 @@
             ]
         },
         {
-            "nomCourt": "Golfe 4",
-            "nomComplet": "Commune du Golfe 4",
+            "nom": "Commune du Golfe 4",
             "canton": "Bè-Ouest",
             "chefLieu": "Doumasséssé",
             "superficie": 15.0,
@@ -127,8 +122,7 @@
             ]
         },
         {
-            "nomCourt": "Golfe 5",
-            "nomComplet": "Commune du Golfe 5",
+            "nom": "Commune du Golfe 5",
             "canton": "Aflao-Gakli",
             "chefLieu": "",
             "population": 300000.0,
@@ -162,8 +156,7 @@
             ]
         },
         {
-            "nomCourt": "Golfe 6",
-            "nomComplet": "Commune du Golfe 6",
+            "nom": "Commune du Golfe 6",
             "canton": "Baguida",
             "chefLieu": "Bè-Afedomé",
             "lat": 6.13748,
@@ -183,8 +176,7 @@
             ]
         },
         {
-            "nomCourt": "Golfe 7",
-            "nomComplet": "Commune du Golfe 7",
+            "nom": "Commune du Golfe 7",
             "canton": "",
             "chefLieu": "Aflao-Sagbado",
             "population": 108857.0,
@@ -220,8 +212,7 @@
             ]
         },
         {
-            "nomCourt": "AGOE-NYIVÉ 1",
-            "nomComplet": "Commune AGOE-NYIVÉ 1",
+            "nom": "Commune AGOE-NYIVÉ 1",
             "canton": "AGOE-NYIVÉ",
             "chefLieu": "AGOE-NYIVÉ",
             "superficie": 32,
@@ -271,8 +262,7 @@
             ]
         },
         {
-            "nomCourt": "AGOE-NYIVÉ 2",
-            "nomComplet": "Commune AGOE-NYIVÉ 2",
+            "nom": "Commune AGOE-NYIVÉ 2",
             "canton": "Légbassito",
             "chefLieu": "Légbassito",
             "superficie": 28,
@@ -303,8 +293,7 @@
             ]
         },
         {
-            "nomCourt": "AGOE-NYIVÉ 3",
-            "nomComplet": "Commune AGOE-NYIVÉ 3",
+            "nom": "Commune AGOE-NYIVÉ 3",
             "canton": "Vakpossito",
             "chefLieu": "Vakpossito",
             "superficie": 4.4,
@@ -321,8 +310,7 @@
             ]
         },
         {
-            "nomCourt": "AGOE-NYIVÉ 4",
-            "nomComplet": "Commune AGOE-NYIVÉ 4",
+            "nom": "Commune AGOE-NYIVÉ 4",
             "canton": "Togblékopé",
             "chefLieu": "Togblékopé",
             "population": 61744.0,
@@ -331,8 +319,7 @@
             "quartiers": []
         },
         {
-            "nomCourt": "AGOE-NYIVÉ 5",
-            "nomComplet": "Commune AGOE-NYIVÉ 5",
+            "nom": "Commune AGOE-NYIVÉ 5",
             "canton": "Togblékopé",
             "chefLieu": "Togblékopé",
             "superficie": 28.0,
