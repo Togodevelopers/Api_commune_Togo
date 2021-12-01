@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Dec 01, 2021 at 03:05 AM
+- Server version: 10.3.31-MariaDB-0ubuntu0.20.04.1
+- PHP Version: 7.4.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="togo_subdivisions" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="cantons">
+                CREATE TABLE `cantons` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `nom` varchar(30) NOT NULL,
+                  `prefecture_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `prefecture_id` (`prefecture_id`),
+                  CONSTRAINT `cantons_ibfk_1` FOREIGN KEY (`prefecture_id`) REFERENCES `prefectures` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+                ) ENGINE=InnoDB AUTO_INCREMENT=387 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'togo_subdivisions'
+    -->
+    <database name="togo_subdivisions">
+        <!-- Table cantons -->
+        <table name="cantons">
+            <column name="id">1</column>
+            <column name="nom">Amoutivé</column>
+            <column name="prefecture_id">35</column>
+        </table>
+        <table name="cantons">
+            <column name="id">2</column>
+            <column name="nom">Bè</column>
+            <column name="prefecture_id">35</column>
+        </table>
+        <table name="cantons">
+            <column name="id">3</column>
+            <column name="nom">Baguida</column>
+            <column name="prefecture_id">35</column>
+        </table>
+        <table name="cantons">
+            <column name="id">4</column>
+            <column name="nom">Aflao – Gakli</column>
+            <column name="prefecture_id">35</column>
+        </table>
+        <table name="cantons">
+            <column name="id">5</column>
+            <column name="nom">Aflao – Sagbado</column>
+            <column name="prefecture_id">35</column>
+        </table>
+        <table name="cantons">
+            <column name="id">6</column>
+            <column name="nom">Adétikopé</column>
+            <column name="prefecture_id">32</column>
+        </table>
+        <table name="cantons">
+            <column name="id">7</column>
+            <column name="nom">Agoè – Nyivé</column>
+            <column name="prefecture_id">32</column>
+        </table>
+        <table name="cantons">
+            <column name="id">8</column>
+            <column name="nom">Sanguéra</column>
+            <column name="prefecture_id">32</column>
+        </table>
+        <table name="cantons">
+            <column name="id">9</column>
+            <column name="nom">Togblékopé</column>
+            <column name="prefecture_id">32</column>
+        </table>
+        <table name="cantons">
+            <column name="id">10</column>
+            <column name="nom">Légbassito</column>
+            <column name="prefecture_id">32</column>
+        </table>
+        <table name="cantons">
+            <column name="id">11</column>
+            <column name="nom">Vakpossito</column>
+            <column name="prefecture_id">32</column>
+        </table>
+        <table name="cantons">
+            <column name="id">12</column>
+            <column name="nom">Aného (LAWSON)</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">13</column>
+            <column name="nom">Aného (ADJIGO)</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">14</column>
+            <column name="nom">Agbodrafo</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">15</column>
+            <column name="nom">Glidji</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">16</column>
+            <column name="nom">Aklakou</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">17</column>
+            <column name="nom">Anfoin</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">18</column>
+            <column name="nom">Fiata</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">19</column>
+            <column name="nom">Agouègan</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">20</column>
+            <column name="nom">Ganavé</column>
+            <column name="prefecture_id">36</column>
+        </table>
+        <table name="cantons">
+            <column name="id">21</column>
+            <column name="nom">Afagnagan</column>
+            <column name="prefecture_id">34</column>
+        </table>
+        <table name="cantons">
+            <column name="id">22</column>
+            <column name="nom">Agomé – Glouzou</column>
+            <column name="prefecture_id">34</column>
+        </table>
+        <table name="cantons">
+            <column name="id">23</column>
+            <column name="nom">Attitogon</column>
+            <column name="prefecture_id">34</column>
+        </table>
+        <table name="cantons">
+            <column name="id">24</column>
+            <column name="nom">Afagnan – Gbléta</column>
+            <column name="prefecture_id">34</column>
+        </table>
+        <table name="cantons">
+            <column name="id">25</column>
+            <column name="nom">Hompou</column>
+            <column name="prefecture_id">34</column>
+        </table>
+        <table name="cantons">
+            <column name="id">26</column>
+            <column name="nom">Agbétiko</column>
+            <column name="prefecture_id">34</column>
+        </table>
+        <table name="cantons">
+            <column name="id">27</column>
+            <column name="nom">Kpétsou</column>
+            <column name="prefecture_id">34</column>
+        </table>
+        <table name="cantons">
+            <column name="id">28</column>
+            <column name="nom">Vogan</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">29</column>
+            <column name="nom">Togoville</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">30</column>
+            <column name="nom">Anyronkopé</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">31</column>
+            <column name="nom">Akoumapé</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">32</column>
+            <column name="nom">Vo – Koutimé</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">33</column>
+            <column name="nom">Dzrékpo</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">34</column>
+            <column name="nom">Dagbati</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">35</column>
+            <column name="nom">Sévagan</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">36</column>
+            <column name="nom">Momé – Hounkpati</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">37</column>
+            <column name="nom">Hahotoé</column>
+            <column name="prefecture_id">37</column>
+        </table>
+        <table name="cantons">
+            <column name="id">38</column>
+            <column name="nom">Tabligbo</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">39</column>
+            <column name="nom">Kouvé</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">40</column>
+            <column name="nom">Gboto</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">41</column>
+            <column name="nom">Ahépé</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">42</column>
+            <column name="nom">Tokpli</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">43</column>
+            <column name="nom">Tokpli</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">44</column>
+            <column name="nom">Sédomé</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">45</column>
+            <column name="nom">Zafi</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">46</column>
+            <column name="nom">Kini – Kondji</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">47</column>
+            <column name="nom">Amoussimé</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">48</column>
+            <column name="nom">Essè – Godjin</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">49</column>
+            <column name="nom">Tométy – Kondji</column>
+            <column name="prefecture_id">38</column>
+        </table>
+        <table name="cantons">
+            <column name="id">50</column>
+            <column name="nom">Tsévié</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">51</column>
+            <column name="nom">Davié</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">52</column>
+            <column name="nom">Gblainvié</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">53</column>
+            <column name="nom">Dalavé</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">54</column>
+            <column name="nom">Kpomé</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">55</column>
+            <column name="nom">Gbatopé</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">56</column>
+            <column name="nom">Gapé – Centre</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">57</column>
+            <column name="nom">Bolou</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">58</column>
+            <column name="nom">Agbélouvé</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">59</column>
+            <column name="nom">Mission – Tové</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">60</column>
+            <column name="nom">Wli</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">61</column>
+            <column name="nom">Abobo</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">62</column>
+            <column name="nom">Kovié</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">63</column>
+            <column name="nom">Gamé – Sèva</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">64</column>
+            <column name="nom">Gapé – Kpodji</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">65</column>
+            <column name="nom">Djagblé</column>
+            <column name="prefecture_id">39</column>
+        </table>
+        <table name="cantons">
+            <column name="id">66</column>
+            <column name="nom">Kévé</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">67</column>
+            <column name="nom">Assahoun</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">68</column>
+            <column name="nom">Badja</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">69</column>
+            <column name="nom">Aképé</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">70</column>
+            <column name="nom">Zolo</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">71</column>
+            <column name="nom">Noépé</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">72</column>
+            <column name="nom">Tovégan</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">73</column>
+            <column name="nom">Ando</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">74</column>
+            <column name="nom">Edji</column>
+            <column name="prefecture_id">33</column>
+        </table>
+        <table name="cantons">
+            <column name="id">75</column>
+            <column name="nom">Gnagna</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">76</column>
+            <column name="nom">Djama</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">77</column>
+            <column name="nom">Woudou</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">78</column>
+            <column name="nom">Katoré</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">79</column>
+            <column name="nom">Gléï</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">80</column>
+            <column name="nom">Ountivou</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">81</column>
+            <column name="nom">Akparé</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">82</column>
+            <column name="nom">Datcha</column>
+            <column name="prefecture_id">30</column>
+        </table>
+        <table name="cantons">
+            <column name="id">83</column>
+            <column name="nom">Anié</column>
+            <column name="prefecture_id">23</column>
+        </table>
+        <table name="cantons">
+            <column name="id">84</column>
+            <column name="nom">Pallakoko</column>
+            <column name="prefecture_id">23</column>
+        </table>
+        <table name="cantons">
+            <column name="id">85</column>
+            <column name="nom">Kolo – Kopé</column>
+            <column name="prefecture_id">23</column>
+        </table>
+        <table name="cantons">
+            <column name="id">86</column>
+            <column name="nom">Adogbénou</column>
+            <column name="prefecture_id">23</column>
+        </table>
+        <table name="cantons">
+            <column name="id">87</column>
+            <column name="nom">Glitto</column>
+            <column name="prefecture_id">23</column>
+        </table>
+        <table name="cantons">
+            <column name="id">88</column>
+            <column name="nom">Atchinèdji</column>
+            <column name="prefecture_id">23</column>
+        </table>
+        <table name="cantons">
+            <column name="id">89</column>
+            <column name="nom">Elavagnon</column>
+            <column name="prefecture_id">25</column>
+        </table>
+        <table name="cantons">
+            <column name="id">90</column>
+            <column name="nom">Nyamassila</column>
+            <column name="prefecture_id">25</column>
+        </table>
+        <table name="cantons">
+            <column name="id">91</column>
+            <column name="nom">Kamina</column>
+            <column name="prefecture_id">25</column>
+        </table>
+        <table name="cantons">
+            <column name="id">92</column>
+            <column name="nom">Morétan – Igbérioko</column>
+            <column name="prefecture_id">25</column>
+        </table>
+        <table name="cantons">
+            <column name="id">93</column>
+            <column name="nom">Kpéssi</column>
+            <column name="prefecture_id">25</column>
+        </table>
+        <table name="cantons">
+            <column name="id">94</column>
+            <column name="nom">Gbadjahè</column>
+            <column name="prefecture_id">25</column>
+        </table>
+        <table name="cantons">
+            <column name="id">95</column>
+            <column name="nom">Badin – Copé</column>
+            <column name="prefecture_id">25</column>
+        </table>
+        <table name="cantons">
+            <column name="id">96</column>
+            <column name="nom">Kpalimé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">97</column>
+            <column name="nom">Agomé – Yoh</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">98</column>
+            <column name="nom">Lanvié</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">99</column>
+            <column name="nom">Hanyigba</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">100</column>
+            <column name="nom">Tové</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">101</column>
+            <column name="nom">Kpadapé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">102</column>
+            <column name="nom">Gbalavé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">103</column>
+            <column name="nom">Kuma</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">104</column>
+            <column name="nom">Kpimé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">105</column>
+            <column name="nom">Woamé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">106</column>
+            <column name="nom">Tomé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">107</column>
+            <column name="nom">Agomé – Tomégbé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">108</column>
+            <column name="nom">Lavié – Apédomé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">109</column>
+            <column name="nom">Yokélé</column>
+            <column name="prefecture_id">27</column>
+        </table>
+        <table name="cantons">
+            <column name="id">110</column>
+            <column name="nom">Danyi – Atigba</column>
+            <column name="prefecture_id">24</column>
+        </table>
+        <table name="cantons">
+            <column name="id">111</column>
+            <column name="nom">Ahlon</column>
+            <column name="prefecture_id">24</column>
+        </table>
+        <table name="cantons">
+            <column name="id">112</column>
+            <column name="nom">Danyi – Kakpa</column>
+            <column name="prefecture_id">24</column>
+        </table>
+        <table name="cantons">
+            <column name="id">113</column>
+            <column name="nom">Yikpa</column>
+            <column name="prefecture_id">24</column>
+        </table>
+        <table name="cantons">
+            <column name="id">114</column>
+            <column name="nom">Danyi – Kpéto – Evita</column>
+            <column name="prefecture_id">24</column>
+        </table>
+        <table name="cantons">
+            <column name="id">115</column>
+            <column name="nom">Danyi – Elavagnon</column>
+            <column name="prefecture_id">24</column>
+        </table>
+        <table name="cantons">
+            <column name="id">116</column>
+            <column name="nom">Agou – Tavié</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">117</column>
+            <column name="nom">Agou – Nyogbo</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">118</column>
+            <column name="nom">Agotimé – Nord</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">119</column>
+            <column name="nom">Agotimé – Sud</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">120</column>
+            <column name="nom">Assahoun – Fiagbé</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">121</column>
+            <column name="nom">Gadja</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">122</column>
+            <column name="nom">Agou – Iboè</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">123</column>
+            <column name="nom">Agou – Akplolo</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">124</column>
+            <column name="nom">Agou – Kébo</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">125</column>
+            <column name="nom">Agou – Atigbé</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">126</column>
+            <column name="nom">Amoussoukopé</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">127</column>
+            <column name="nom">Agou – Nyogbo – Agbétiko</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">128</column>
+            <column name="nom">Kati</column>
+            <column name="prefecture_id">20</column>
+        </table>
+        <table name="cantons">
+            <column name="id">129</column>
+            <column name="nom">Notsé</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">130</column>
+            <column name="nom">Wahala</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">131</column>
+            <column name="nom">Ayito</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">132</column>
+            <column name="nom">Assrama</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">133</column>
+            <column name="nom">Kpédomé</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">134</column>
+            <column name="nom">Dalia</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">135</column>
+            <column name="nom">Atsavé</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">136</column>
+            <column name="nom">Djéméni</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">137</column>
+            <column name="nom">Akpakpapé</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">138</column>
+            <column name="nom">Hahomégbé</column>
+            <column name="prefecture_id">26</column>
+        </table>
+        <table name="cantons">
+            <column name="id">139</column>
+            <column name="nom">Tohoun</column>
+            <column name="prefecture_id">29</column>
+        </table>
+        <table name="cantons">
+            <column name="id">140</column>
+            <column name="nom">Kpékplémé</column>
+            <column name="prefecture_id">29</column>
+        </table>
+        <table name="cantons">
+            <column name="id">141</column>
+            <column name="nom">Tado</column>
+            <column name="prefecture_id">29</column>
+        </table>
+        <table name="cantons">
+            <column name="id">142</column>
+            <column name="nom">Saligbè</column>
+            <column name="prefecture_id">29</column>
+        </table>
+        <table name="cantons">
+            <column name="id">143</column>
+            <column name="nom">Ahassomé</column>
+            <column name="prefecture_id">29</column>
+        </table>
+        <table name="cantons">
+            <column name="id">144</column>
+            <column name="nom">Katomé</column>
+            <column name="prefecture_id">29</column>
+        </table>
+        <table name="cantons">
+            <column name="id">145</column>
+            <column name="nom">Zogbégan</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">146</column>
+            <column name="nom">Badou</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">147</column>
+            <column name="nom">Tomégbé</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">148</column>
+            <column name="nom">Kpété – Bena</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">149</column>
+            <column name="nom">Gobé</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">150</column>
+            <column name="nom">Klabè – Efoukpa</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">151</column>
+            <column name="nom">Ekéto</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">152</column>
+            <column name="nom">Ounabé</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">153</column>
+            <column name="nom">Késsibo</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">154</column>
+            <column name="nom">Gbadi – N’Kugna</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">155</column>
+            <column name="nom">Doumé</column>
+            <column name="prefecture_id">31</column>
+        </table>
+        <table name="cantons">
+            <column name="id">156</column>
+            <column name="nom">Ouma (Amlamé)</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">157</column>
+            <column name="nom">Logbo (Témédja)</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">158</column>
+            <column name="nom">Ikponou (Akposso – Nord) Otadi</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">159</column>
+            <column name="nom">Amou – Oblo</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">160</column>
+            <column name="nom">Ekpégnon</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">161</column>
+            <column name="nom">Kpatégan</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">162</column>
+            <column name="nom">Hihéatro</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">163</column>
+            <column name="nom">Gamé</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">164</column>
+            <column name="nom">Imlé</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">165</column>
+            <column name="nom">Avédji – Itadi</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">166</column>
+            <column name="nom">Adiva</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">167</column>
+            <column name="nom">Evou</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">168</column>
+            <column name="nom">Okpahoé</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">169</column>
+            <column name="nom">Sodo</column>
+            <column name="prefecture_id">22</column>
+        </table>
+        <table name="cantons">
+            <column name="id">170</column>
+            <column name="nom">Kougnohou</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">171</column>
+            <column name="nom">Djon</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">172</column>
+            <column name="nom">Gbendé</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">173</column>
+            <column name="nom">Sérégbéné</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">174</column>
+            <column name="nom">Yalla</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">175</column>
+            <column name="nom">Kamina – Akébou</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">176</column>
+            <column name="nom">Vèh</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">177</column>
+            <column name="nom">Kpalavé</column>
+            <column name="prefecture_id">21</column>
+        </table>
+        <table name="cantons">
+            <column name="id">178</column>
+            <column name="nom">Kpélé – Akata</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">179</column>
+            <column name="nom">Kpélé – Goudévé</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">180</column>
+            <column name="nom">Kpélé – Kamè</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">181</column>
+            <column name="nom">Kpélé – Nord</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">182</column>
+            <column name="nom">Kpélé – Novivé</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">183</column>
+            <column name="nom">Kpélé – Govié</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">184</column>
+            <column name="nom">Kpélé – Dawlotu</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">185</column>
+            <column name="nom">Kpélé – Gbalédzé</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">186</column>
+            <column name="nom">Kpélé – Dutoè</column>
+            <column name="prefecture_id">28</column>
+        </table>
+        <table name="cantons">
+            <column name="id">187</column>
+            <column name="nom">Blitta</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">188</column>
+            <column name="nom">Langabou</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">189</column>
+            <column name="nom">Pagala – Gare</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">190</column>
+            <column name="nom">Yégué</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">191</column>
+            <column name="nom">Tcharé – Baou</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">192</column>
+            <column name="nom">M’Poti</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">193</column>
+            <column name="nom">Diguengué</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">194</column>
+            <column name="nom">Tintchro</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">195</column>
+            <column name="nom">Pagala – Village</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">196</column>
+            <column name="nom">Atchintsé</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">197</column>
+            <column name="nom">Welly</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">198</column>
+            <column name="nom">Agbandi</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">199</column>
+            <column name="nom">Yaloumbé</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">200</column>
+            <column name="nom">Tchaloudè</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">201</column>
+            <column name="nom">Blitta – Village</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">202</column>
+            <column name="nom">Doufouli</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">203</column>
+            <column name="nom">Tchifama</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">204</column>
+            <column name="nom">Dikpéléou</column>
+            <column name="prefecture_id">15</column>
+        </table>
+        <table name="cantons">
+            <column name="id">205</column>
+            <column name="nom">Djarkpanga</column>
+            <column name="prefecture_id">19</column>
+        </table>
+        <table name="cantons">
+            <column name="id">206</column>
+            <column name="nom">Tindjasse</column>
+            <column name="prefecture_id">19</column>
+        </table>
+        <table name="cantons">
+            <column name="id">207</column>
+            <column name="nom">Kaningbara</column>
+            <column name="prefecture_id">19</column>
+        </table>
+        <table name="cantons">
+            <column name="id">208</column>
+            <column name="nom">Boulohou</column>
+            <column name="prefecture_id">19</column>
+        </table>
+        <table name="cantons">
+            <column name="id">209</column>
+            <column name="nom">Saïboudè</column>
+            <column name="prefecture_id">19</column>
+        </table>
+        <table name="cantons">
+            <column name="id">210</column>
+            <column name="nom">Sotouboua</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">211</column>
+            <column name="nom">Adjengré</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">212</column>
+            <column name="nom">Tchébébé</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">213</column>
+            <column name="nom">Aouda</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">214</column>
+            <column name="nom">Fazao</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">215</column>
+            <column name="nom">Titigbé</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">216</column>
+            <column name="nom">Kaniamboua</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">217</column>
+            <column name="nom">Bodjondé</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">218</column>
+            <column name="nom">Sassaro</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">219</column>
+            <column name="nom">Kazaboua</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">220</column>
+            <column name="nom">Tabindè</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">221</column>
+            <column name="nom">Kériadè</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">222</column>
+            <column name="nom">Kériadè</column>
+            <column name="prefecture_id">17</column>
+        </table>
+        <table name="cantons">
+            <column name="id">223</column>
+            <column name="nom">Tchamba</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">224</column>
+            <column name="nom">Koussountou</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">225</column>
+            <column name="nom">Adjéidè (Kri – Kri)</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">226</column>
+            <column name="nom">Kaboli</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">227</column>
+            <column name="nom">Balanka</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">228</column>
+            <column name="nom">Alibi</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">229</column>
+            <column name="nom">Affem</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">230</column>
+            <column name="nom">Larini</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">231</column>
+            <column name="nom">Bago</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">232</column>
+            <column name="nom">Goubi</column>
+            <column name="prefecture_id">16</column>
+        </table>
+        <table name="cantons">
+            <column name="id">233</column>
+            <column name="nom">Komah</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">234</column>
+            <column name="nom">Kéméni</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">235</column>
+            <column name="nom">Agoulou</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">236</column>
+            <column name="nom">Wassarabo</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">237</column>
+            <column name="nom">Aléhéridè</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">238</column>
+            <column name="nom">Kadambara</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">239</column>
+            <column name="nom">Lama – Tessi</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">240</column>
+            <column name="nom">Kolina</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">241</column>
+            <column name="nom">Kpangalam</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">242</column>
+            <column name="nom">Tchalo</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">243</column>
+            <column name="nom">Kpassouadè</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">244</column>
+            <column name="nom">Amaïdè</column>
+            <column name="prefecture_id">18</column>
+        </table>
+        <table name="cantons">
+            <column name="id">245</column>
+            <column name="nom">Bafilo</column>
+            <column name="prefecture_id">8</column>
+        </table>
+        <table name="cantons">
+            <column name="id">246</column>
+            <column name="nom">Dako</column>
+            <column name="prefecture_id">8</column>
+        </table>
+        <table name="cantons">
+            <column name="id">247</column>
+            <column name="nom">Koumondè</column>
+            <column name="prefecture_id">8</column>
+        </table>
+        <table name="cantons">
+            <column name="id">248</column>
+            <column name="nom">Soudou</column>
+            <column name="prefecture_id">8</column>
+        </table>
+        <table name="cantons">
+            <column name="id">249</column>
+            <column name="nom">Alédjo</column>
+            <column name="prefecture_id">8</column>
+        </table>
+        <table name="cantons">
+            <column name="id">250</column>
+            <column name="nom">Bouladè</column>
+            <column name="prefecture_id">8</column>
+        </table>
+        <table name="cantons">
+            <column name="id">251</column>
+            <column name="nom">Guérin – Kouka</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">252</column>
+            <column name="nom">Bapuré</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">253</column>
+            <column name="nom">Nandouta</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">254</column>
+            <column name="nom">Kidjaboum</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">255</column>
+            <column name="nom">Namon</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">256</column>
+            <column name="nom">Nawaré</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">257</column>
+            <column name="nom">Katchamba</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">258</column>
+            <column name="nom">Nampoch</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">259</column>
+            <column name="nom">Natchiboré</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">260</column>
+            <column name="nom">Natchitikpi</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">261</column>
+            <column name="nom">Koulfièkou</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">262</column>
+            <column name="nom">Koutchichéou</column>
+            <column name="prefecture_id">11</column>
+        </table>
+        <table name="cantons">
+            <column name="id">263</column>
+            <column name="nom">Bassar</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">264</column>
+            <column name="nom">Kabou</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">265</column>
+            <column name="nom">Bitchabé</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">266</column>
+            <column name="nom">Dimouri</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">267</column>
+            <column name="nom">Sanda – Kagbanda</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">268</column>
+            <column name="nom">Bangéli</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">269</column>
+            <column name="nom">Baghan</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">270</column>
+            <column name="nom">Sanda – Afowou</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">271</column>
+            <column name="nom">Manga</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">272</column>
+            <column name="nom">Kalanga</column>
+            <column name="prefecture_id">9</column>
+        </table>
+        <table name="cantons">
+            <column name="id">273</column>
+            <column name="nom">Lama</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">274</column>
+            <column name="nom">Lassa</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">275</column>
+            <column name="nom">Landa</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">276</column>
+            <column name="nom">Kouméa</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">277</column>
+            <column name="nom">Tcharé</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">278</column>
+            <column name="nom">Pya</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">279</column>
+            <column name="nom">Tchitchao</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">280</column>
+            <column name="nom">Sarakawa</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">281</column>
+            <column name="nom">Yadé</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">282</column>
+            <column name="nom">Bohou</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">283</column>
+            <column name="nom">Landa – Kpinzindè</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">284</column>
+            <column name="nom">Djamdè</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">285</column>
+            <column name="nom">Atchangbadè</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">286</column>
+            <column name="nom">Awandjélo</column>
+            <column name="prefecture_id">14</column>
+        </table>
+        <table name="cantons">
+            <column name="id">287</column>
+            <column name="nom">Pagouda</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">288</column>
+            <column name="nom">Kétao</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">289</column>
+            <column name="nom">Pessaré</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">290</column>
+            <column name="nom">Lama – Dessi</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">291</column>
+            <column name="nom">Boufalé</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">292</column>
+            <column name="nom">Solla</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">293</column>
+            <column name="nom">Sirka</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">294</column>
+            <column name="nom">Kémérida</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">295</column>
+            <column name="nom">Pitikita</column>
+            <column name="prefecture_id">10</column>
+        </table>
+        <table name="cantons">
+            <column name="id">296</column>
+            <column name="nom">Niamtougou</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">297</column>
+            <column name="nom">Siou</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">298</column>
+            <column name="nom">Défalé</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">299</column>
+            <column name="nom">Alloum</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">300</column>
+            <column name="nom">Massédéna</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">301</column>
+            <column name="nom">Kadjalla</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">302</column>
+            <column name="nom">Pouda</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">303</column>
+            <column name="nom">Léon</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">304</column>
+            <column name="nom">Agbandé – Yaka</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">305</column>
+            <column name="nom">Baga</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">306</column>
+            <column name="nom">Ténéga</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">307</column>
+            <column name="nom">Kpaha</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">308</column>
+            <column name="nom">Koka</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">309</column>
+            <column name="nom">Tchoré</column>
+            <column name="prefecture_id">12</column>
+        </table>
+        <table name="cantons">
+            <column name="id">310</column>
+            <column name="nom">Kantè</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">311</column>
+            <column name="nom">Atalotè</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">312</column>
+            <column name="nom">Pessidè</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">313</column>
+            <column name="nom">Tamberma – Est (Koutougou)</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">314</column>
+            <column name="nom">Tamberma – Ouest (Nadoba)</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">315</column>
+            <column name="nom">Hélota</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">316</column>
+            <column name="nom">Warengo</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">317</column>
+            <column name="nom">Akponté</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">318</column>
+            <column name="nom">Ossacré</column>
+            <column name="prefecture_id">13</column>
+        </table>
+        <table name="cantons">
+            <column name="id">319</column>
+            <column name="nom">Mango</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">320</column>
+            <column name="nom">Nagbéni</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">321</column>
+            <column name="nom">Tchanaga</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">322</column>
+            <column name="nom">Galangashie</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">323</column>
+            <column name="nom">Barkoissi</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">324</column>
+            <column name="nom">Faré</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">325</column>
+            <column name="nom">Loko</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">326</column>
+            <column name="nom">Sadori</column>
+            <column name="prefecture_id">4</column>
+        </table>
+        <table name="cantons">
+            <column name="id">327</column>
+            <column name="nom">Gando</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">328</column>
+            <column name="nom">Mogou</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">329</column>
+            <column name="nom">Sagbièbou</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">330</column>
+            <column name="nom">Koumongou</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">331</column>
+            <column name="nom">Takpamba</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">332</column>
+            <column name="nom">Kountoiré</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">333</column>
+            <column name="nom">Nali</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">334</column>
+            <column name="nom">Tchamonga</column>
+            <column name="prefecture_id">5</column>
+        </table>
+        <table name="cantons">
+            <column name="id">335</column>
+            <column name="nom">Bogou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">336</column>
+            <column name="nom">Bombouaka</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">337</column>
+            <column name="nom">Tamongou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">338</column>
+            <column name="nom">Nandoga</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">339</column>
+            <column name="nom">Loko</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">340</column>
+            <column name="nom">Sissiak</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">341</column>
+            <column name="nom">Tampialime</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">342</column>
+            <column name="nom">Doukpergou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">343</column>
+            <column name="nom">Goundoga</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">344</column>
+            <column name="nom">Lokpanou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">345</column>
+            <column name="nom">Nano</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">346</column>
+            <column name="nom">Pligou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">347</column>
+            <column name="nom">Boulogou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">348</column>
+            <column name="nom">Mamproug</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">349</column>
+            <column name="nom">Bagou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">350</column>
+            <column name="nom">Sangou</column>
+            <column name="prefecture_id">6</column>
+        </table>
+        <table name="cantons">
+            <column name="id">351</column>
+            <column name="nom">Mandouri</column>
+            <column name="prefecture_id">2</column>
+        </table>
+        <table name="cantons">
+            <column name="id">352</column>
+            <column name="nom">Koundjoaré</column>
+            <column name="prefecture_id">2</column>
+        </table>
+        <table name="cantons">
+            <column name="id">353</column>
+            <column name="nom">Borgou</column>
+            <column name="prefecture_id">2</column>
+        </table>
+        <table name="cantons">
+            <column name="id">354</column>
+            <column name="nom">Tambigou</column>
+            <column name="prefecture_id">2</column>
+        </table>
+        <table name="cantons">
+            <column name="id">355</column>
+            <column name="nom">Namondjoga</column>
+            <column name="prefecture_id">2</column>
+        </table>
+        <table name="cantons">
+            <column name="id">356</column>
+            <column name="nom">Pogno</column>
+            <column name="prefecture_id">3</column>
+        </table>
+        <table name="cantons">
+            <column name="id">357</column>
+            <column name="nom">Naki – Est</column>
+            <column name="prefecture_id">3</column>
+        </table>
+        <table name="cantons">
+            <column name="id">358</column>
+            <column name="nom">Ogaro</column>
+            <column name="prefecture_id">3</column>
+        </table>
+        <table name="cantons">
+            <column name="id">359</column>
+            <column name="nom">Nayéga</column>
+            <column name="prefecture_id">3</column>
+        </table>
+        <table name="cantons">
+            <column name="id">360</column>
+            <column name="nom">Papri</column>
+            <column name="prefecture_id">3</column>
+        </table>
+        <table name="cantons">
+            <column name="id">361</column>
+            <column name="nom">Tambonga</column>
+            <column name="prefecture_id">3</column>
+        </table>
+        <table name="cantons">
+            <column name="id">362</column>
+            <column name="nom">Dapaong</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">363</column>
+            <column name="nom">Kantindi</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">364</column>
+            <column name="nom">Bidjenga</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">365</column>
+            <column name="nom">Tami</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">366</column>
+            <column name="nom">Lotogou</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">367</column>
+            <column name="nom">Warkambou</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">368</column>
+            <column name="nom">Nanergou</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">369</column>
+            <column name="nom">Nioukpourma</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">370</column>
+            <column name="nom">Pana</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">371</column>
+            <column name="nom">Naki – Ouest</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">372</column>
+            <column name="nom">Korbongou</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">373</column>
+            <column name="nom">Kourientré</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">374</column>
+            <column name="nom">Namaré</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">375</column>
+            <column name="nom">Louanga</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">376</column>
+            <column name="nom">Toaga</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">377</column>
+            <column name="nom">Poissongui</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">378</column>
+            <column name="nom">Sanfatoute</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">379</column>
+            <column name="nom">Natigou</column>
+            <column name="prefecture_id">7</column>
+        </table>
+        <table name="cantons">
+            <column name="id">380</column>
+            <column name="nom">Cinkassé</column>
+            <column name="prefecture_id">1</column>
+        </table>
+        <table name="cantons">
+            <column name="id">381</column>
+            <column name="nom">Biankouri</column>
+            <column name="prefecture_id">1</column>
+        </table>
+        <table name="cantons">
+            <column name="id">382</column>
+            <column name="nom">Nadjoundi</column>
+            <column name="prefecture_id">1</column>
+        </table>
+        <table name="cantons">
+            <column name="id">383</column>
+            <column name="nom">Boadé</column>
+            <column name="prefecture_id">1</column>
+        </table>
+        <table name="cantons">
+            <column name="id">384</column>
+            <column name="nom">Samnaba</column>
+            <column name="prefecture_id">1</column>
+        </table>
+        <table name="cantons">
+            <column name="id">385</column>
+            <column name="nom">Noaga</column>
+            <column name="prefecture_id">1</column>
+        </table>
+        <table name="cantons">
+            <column name="id">386</column>
+            <column name="nom">Gouloungoussi</column>
+            <column name="prefecture_id">1</column>
+        </table>
+    </database>
+</pma_xml_export>
