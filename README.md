@@ -6,63 +6,6 @@ Dernière mise à jour : 30 Novembre 2021
 ### API
 Pas encore disponible
 
-<!-- ### Communes
-
-Liste des attributs
-
-
-| Nom   | Description | Type |
-|----------|:-------------:|------:|
-| code | Code (administratif) de la commune| string |
-| nom | Nom de la commune | string |
-| codePostaux | Liste des codes postaux de la commune | array[string] |
-| population | Nombre d'habitants de la commune | number |
-| superficie | Superficie de la commune exprimée en km2 | number | 
-| latitude | Latitude (en dégrés) | number |
-| longitude | Longitude (en dégrés) | number |
-| canton | Canton représentant la commune | string |
-| quartiers | Liste des quartiers/villages de la commune | array[string] |
-
-Schema JSON d'une commune
-
-```json
-{
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "nom": {
-      "description": "Le nom de la commune",
-      "type": "string"
-    },
-    "canton": {
-      "description": "Canton représentant la commune",
-      "type": "string"
-    },
-    "population": {
-      "description": "Le nombre d'habitants par km2",
-      "type": "number"
-    },
-    "latitude": {
-      "description": "Latitude",
-      "type": "number"
-    },
-    "longitude": {
-      "description": "Longitude",
-      "type": "number"
-    },
-    "quartiers": {
-      "description": "Liste des qurtiers/villages de la commune",
-      "type": "array",
-    }
-  },
-  "required": ["nom"]
-}
-```
-
-### Préfectures -->
-
-
-
 ### Formats disponibles
 Fichier | JSON | SQL | XML | CSV
 :------------ | :-------------| :-------------| :------------- |:-------------
@@ -81,6 +24,16 @@ Nombre de Préfectures : 39 <br>
 Nombre de Communes : 117 <br>
 Nombre de Cantons : 394 <br>
 Nombre de Villages : 3644 <br>
+
+#### Répartition par Région
+
+Régions | Villes | Préfectures | Communes | Cantons
+:--------- | :--------- | :--------- | :--------- | :---------
+Maritime | 05 | 08 | 32 | 75 |
+Plateaux | 05 | 12 | 32 | 111 |
+Centrale | 03 | 05 | 15 | 60 |
+Kara     | 06 | 07 | 22 | 76 |
+Savanes  | 04 | 07 | 16 | 69 |
 
 ## Contributions
 [Directives de contribution](https://github.com/Togodevelopers/Api_commune_Togo/blob/master/.github/CONTRIBUTING.md)

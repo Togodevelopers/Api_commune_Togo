@@ -2,8 +2,8 @@
     {
         "id": 1,
         "nom": "Lomé",
-        "superficie": "90",
-        "population": "2133579",
+        "superficie": 90,
+        "population": 2133579,
         "region_id": 5
     },
     {
@@ -16,7 +16,7 @@
     {
         "id": 3,
         "nom": "Kara",
-        "superficie": "11630",
+        "superficie": 11630,
         "population": null,
         "region_id": 2
     },

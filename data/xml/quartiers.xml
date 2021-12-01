@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Dec 01, 2021 at 01:26 PM
+- Server version: 10.3.31-MariaDB-0ubuntu0.20.04.1
+- PHP Version: 7.4.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="togo_subdivisions" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="quartiers">
+                CREATE TABLE `quartiers` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `nom` varchar(255) NOT NULL,
+                  `latitude` double DEFAULT NULL,
+                  `longitude` double DEFAULT NULL,
+                  `superficie` double DEFAULT NULL,
+                  `population` double DEFAULT NULL,
+                  `commune_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `nom` (`nom`),
+                  KEY `commune_id` (`commune_id`),
+                  CONSTRAINT `quartiers_ibfk_1` FOREIGN KEY (`commune_id`) REFERENCES `communes` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+                ) ENGINE=InnoDB AUTO_INCREMENT=247 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'togo_subdivisions'
+    -->
+    <database name="togo_subdivisions">
+        <!-- Table quartiers -->
+        <table name="quartiers">
+            <column name="id">1</column>
+            <column name="nom">Adjouyiko</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">2</column>
+            <column name="nom">Ahonga-Kopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">3</column>
+            <column name="nom">Adougba</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">4</column>
+            <column name="nom">Anokoui-Komékopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">5</column>
+            <column name="nom">Anokoui-Ahokopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">6</column>
+            <column name="nom">Anomegblé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">7</column>
+            <column name="nom">Anonkui-Nogo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">8</column>
+            <column name="nom">Apenyigbi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">9</column>
+            <column name="nom">Démakpoè</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">10</column>
+            <column name="nom">Djingble</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">11</column>
+            <column name="nom">Fiovi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">12</column>
+            <column name="nom">Gbonvié-Anomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">13</column>
+            <column name="nom">Gnamassigan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">14</column>
+            <column name="nom">Kitidjan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">15</column>
+            <column name="nom">Klévé-Apégnigbi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">16</column>
+            <column name="nom">Klévé-Assiyéyé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">17</column>
+            <column name="nom">Kové</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">18</column>
+            <column name="nom">Logope-Agbanyokopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">19</column>
+            <column name="nom">Logopé-Atsanvé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">20</column>
+            <column name="nom">Logopé-Houmbigblé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">21</column>
+            <column name="nom">Logopé-Kpatefi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">22</column>
+            <column name="nom">Netimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">23</column>
+            <column name="nom">Nyavimé-Aveyimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">24</column>
+            <column name="nom">Sogbossito</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">25</column>
+            <column name="nom">Sogbossito-Apelebuimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">26</column>
+            <column name="nom">Sogbossito-Aziasikopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">27</column>
+            <column name="nom">Télessou-Adokpokopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">28</column>
+            <column name="nom">Télessou-Agbodekakopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">29</column>
+            <column name="nom">Togomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">30</column>
+            <column name="nom">Totsi-Nyivémé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">31</column>
+            <column name="nom">Totsi-Kpatefi-Cacavéli</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">32</column>
+            <column name="nom">Zogbégan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">33</column>
+            <column name="nom">Atsanvé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">34</column>
+            <column name="nom">Houmbi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">35</column>
+            <column name="nom">Kpatefi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">36</column>
+            <column name="nom">Klévé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">37</column>
+            <column name="nom">Apelebuimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">38</column>
+            <column name="nom">Adidodokpo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">39</column>
+            <column name="nom">Nyivémé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">85</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">40</column>
+            <column name="nom">Legbassito</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">41</column>
+            <column name="nom">Yohonou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">42</column>
+            <column name="nom">Ahonkpoe</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">43</column>
+            <column name="nom">Agossito</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">44</column>
+            <column name="nom">Zovadjin</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">45</column>
+            <column name="nom">Madjikpeto</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">46</column>
+            <column name="nom">Avinato</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">47</column>
+            <column name="nom">Silivikope (Adidomé)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">48</column>
+            <column name="nom">Athieme ahonpkoe</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">49</column>
+            <column name="nom">Assikor</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">50</column>
+            <column name="nom">Bokpokor</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">51</column>
+            <column name="nom">Amadenta anaglikope</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">52</column>
+            <column name="nom">Amadenta douthekope</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">53</column>
+            <column name="nom">Amadenta akikope</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">54</column>
+            <column name="nom">Athieme</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">55</column>
+            <column name="nom">Kove sivanyo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">56</column>
+            <column name="nom">Kove kpokplovime</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">57</column>
+            <column name="nom">Ahondjokope</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">58</column>
+            <column name="nom">Dalime</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">59</column>
+            <column name="nom">Danliko</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">86</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">60</column>
+            <column name="nom">Hossoukopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">87</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">61</column>
+            <column name="nom">Logogomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">87</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">62</column>
+            <column name="nom">Elavagno-Atsanvé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">87</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">63</column>
+            <column name="nom">Elavagno-Klévé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">87</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">64</column>
+            <column name="nom">Awoudja-Kopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">87</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">65</column>
+            <column name="nom">Dansakopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">87</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">66</column>
+            <column name="nom">Afiadényigban</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">67</column>
+            <column name="nom">Agbléliko</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">68</column>
+            <column name="nom">Anyigbé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">69</column>
+            <column name="nom">Attigankopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">70</column>
+            <column name="nom">Dangbéssito</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">71</column>
+            <column name="nom">Dékpor</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">72</column>
+            <column name="nom">Elavanyo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">73</column>
+            <column name="nom">Klémé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">74</column>
+            <column name="nom">Klikamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">75</column>
+            <column name="nom">Kohé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">76</column>
+            <column name="nom">Kopégan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">77</column>
+            <column name="nom">Sanguéra</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">78</column>
+            <column name="nom">Nanégbé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">79</column>
+            <column name="nom">Sanyrakor</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">80</column>
+            <column name="nom">Tagakopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">81</column>
+            <column name="nom">Vogomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">82</column>
+            <column name="nom">Zion-kopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">83</column>
+            <column name="nom">Zopomahé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">84</column>
+            <column name="nom">Zossimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">89</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">85</column>
+            <column name="nom">Adétikope centre</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">86</column>
+            <column name="nom">Adoglove</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">87</column>
+            <column name="nom">Anyave</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">88</column>
+            <column name="nom">Agoute-kpokpome</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">89</column>
+            <column name="nom">Devime</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">90</column>
+            <column name="nom">Dzove</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">91</column>
+            <column name="nom">Kladzeme</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">92</column>
+            <column name="nom">Kpotave</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">93</column>
+            <column name="nom">Lomenyokop</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">94</column>
+            <column name="nom">Tonoukouti</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">95</column>
+            <column name="nom">Tsikplonoukondzi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">90</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">96</column>
+            <column name="nom">Bè-Hédjé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">97</column>
+            <column name="nom">Bè-Apéyémé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">98</column>
+            <column name="nom">Bè-Dangbuipé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">99</column>
+            <column name="nom">Bè-Adzrométi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">100</column>
+            <column name="nom">Bè-Agodo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">101</column>
+            <column name="nom">Bè-Agodogan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">102</column>
+            <column name="nom">Bè-Allaglo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">103</column>
+            <column name="nom">Bè-Ahligo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">104</column>
+            <column name="nom">Bè-Hounvémé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">105</column>
+            <column name="nom">Bè-Adanlékpossi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">106</column>
+            <column name="nom">Bè-Wété-Komé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">107</column>
+            <column name="nom">Bè-Akodessewa</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">108</column>
+            <column name="nom">Bè-Kotokou-Kondji</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">109</column>
+            <column name="nom">Bè-Ablogamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">110</column>
+            <column name="nom">Bè-Kanyikopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">111</column>
+            <column name="nom">Bè-Adakpamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">112</column>
+            <column name="nom">Bè-Adakpamé-Dangbuipé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">113</column>
+            <column name="nom">Bè-Adakpamé-Apéyémé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">114</column>
+            <column name="nom">Bè-Adakpamé-KpotaColas</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">115</column>
+            <column name="nom">Bè-Kpota-Adidomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">116</column>
+            <column name="nom">Bè-Akodessewa-Kpota</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">117</column>
+            <column name="nom">Bè-Akodessewa-Kponou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">118</column>
+            <column name="nom">Bè-Anfamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">119</column>
+            <column name="nom">Bè-Kpota-Dénouvimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">120</column>
+            <column name="nom">Bè-Kpota-Atchantimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">121</column>
+            <column name="nom">Bè-Kpota</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">122</column>
+            <column name="nom">Bè-Kpota-Tokoin</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">123</column>
+            <column name="nom">N’tifafa Komé-Nord</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">124</column>
+            <column name="nom">Bè-Attiégou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">125</column>
+            <column name="nom">Bè-Souza-Nétimé N°1</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">126</column>
+            <column name="nom">Bè-Souza-Nétimé N°2</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">127</column>
+            <column name="nom">Bè-Souza-Nétimé N°3</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">128</column>
+            <column name="nom">Bè-Anthony-Nétimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">129</column>
+            <column name="nom">Katanga</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">130</column>
+            <column name="nom">Kélégougan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">131</column>
+            <column name="nom">Klobatème</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">95</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">132</column>
+            <column name="nom">Tokoin Wuiti</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">134</column>
+            <column name="nom">Tokoin Tamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">135</column>
+            <column name="nom">Tokoin Enyonam</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">136</column>
+            <column name="nom">Hédzranawoé 1</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">137</column>
+            <column name="nom">Hédzranaoé 2 (Togo 2000)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">138</column>
+            <column name="nom">Tokoin Aviation</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">139</column>
+            <column name="nom">Kégué</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">140</column>
+            <column name="nom">Atiégouvi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">96</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">141</column>
+            <column name="nom">Tokoin Elavagnon Lycée (Camp Général Gnassingbé Eyadéma, CICA TOYOTA, SOTED)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">142</column>
+            <column name="nom">Tokoin-Gbonvié</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">143</column>
+            <column name="nom">Doumasséssé (Adewi et l’Université de Lomé)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">144</column>
+            <column name="nom">Tokoin klévé (cité OUA)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">145</column>
+            <column name="nom">Tokoin Atchanti (Lomé II, Nouvelle Présidence, Habitats de la Caisse)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">146</column>
+            <column name="nom">Kélégouvi (Stade de Kégué)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">147</column>
+            <column name="nom">Massouhoin</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">148</column>
+            <column name="nom">Hanoukopé-Est (Camp Gendarmerie)</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">97</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">149</column>
+            <column name="nom">Amoutivé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">150</column>
+            <column name="nom">Bassadji</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">151</column>
+            <column name="nom">N’tifafa-komé-sud</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">152</column>
+            <column name="nom">Doulassame</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">153</column>
+            <column name="nom">Lom-nava</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">154</column>
+            <column name="nom">Hanoukopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">155</column>
+            <column name="nom">Adoboukomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">156</column>
+            <column name="nom">Aguiakomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">157</column>
+            <column name="nom">Anagokomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">158</column>
+            <column name="nom">Adawlato</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">159</column>
+            <column name="nom">Béniglato</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">160</column>
+            <column name="nom">Biossé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">161</column>
+            <column name="nom">Assivito</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">175</column>
+            <column name="nom">Hétrivikondji</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">176</column>
+            <column name="nom">Octavia-nétimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">177</column>
+            <column name="nom">Kodjoviakopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">178</column>
+            <column name="nom">Nyékonakpoè</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">179</column>
+            <column name="nom">Adjololo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">180</column>
+            <column name="nom">Kodomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">181</column>
+            <column name="nom">Tokoin Gbadago</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">182</column>
+            <column name="nom">CHU Sylvanus OLYMPIO</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">183</column>
+            <column name="nom">Dogbéavu</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">184</column>
+            <column name="nom">Bè-Klikamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">185</column>
+            <column name="nom">Atikoumé-Adjomayi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">98</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">186</column>
+            <column name="nom">Djidjolé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">187</column>
+            <column name="nom">Tokoin Casablanca</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">188</column>
+            <column name="nom">Akosombo Tamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">189</column>
+            <column name="nom">Akosombo Atikoumé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">190</column>
+            <column name="nom">Agbalépedogan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">191</column>
+            <column name="nom">Agbalépedo Dabla Kopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">192</column>
+            <column name="nom">Totsigan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">193</column>
+            <column name="nom">Totsivi Gblenkomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">194</column>
+            <column name="nom">Adidoadin</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">195</column>
+            <column name="nom">Soviépé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">196</column>
+            <column name="nom">Avenou Batomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">197</column>
+            <column name="nom">Avedji Telessou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">198</column>
+            <column name="nom">Avedji Anyigbe</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">199</column>
+            <column name="nom">Adigomé Teshie</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">200</column>
+            <column name="nom">Wessome Hetchavi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">201</column>
+            <column name="nom">Apedokoè Legbanou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">202</column>
+            <column name="nom">Avedji Kpodji</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">203</column>
+            <column name="nom">Avedji Awounogbé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">204</column>
+            <column name="nom">Avedji Adidome</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">205</column>
+            <column name="nom">Amadahomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">206</column>
+            <column name="nom">Adidogomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">207</column>
+            <column name="nom">Apedokoè Molèdji</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">208</column>
+            <column name="nom">Avedji Anyigbe Sud</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">209</column>
+            <column name="nom">Avenou Kletigomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">99</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">210</column>
+            <column name="nom">Gbétsogbé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">211</column>
+            <column name="nom">Noudokope</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">212</column>
+            <column name="nom">Adamavo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">213</column>
+            <column name="nom">Logoti</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">214</column>
+            <column name="nom">Doèvi-Kopé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">215</column>
+            <column name="nom">Avépozo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">216</column>
+            <column name="nom">Dévégo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">217</column>
+            <column name="nom">Kpogan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">218</column>
+            <column name="nom">Boboloè</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">219</column>
+            <column name="nom">Baguida</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">100</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">220</column>
+            <column name="nom">Akato-viepé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">221</column>
+            <column name="nom">Avoème</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">222</column>
+            <column name="nom">Akato-déme</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">223</column>
+            <column name="nom">Segbegan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">224</column>
+            <column name="nom">Segbe douane</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">225</column>
+            <column name="nom">Klémé-Agokpanou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">226</column>
+            <column name="nom">Klémé Yewepé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">227</column>
+            <column name="nom">Wougomé Dékpo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">228</column>
+            <column name="nom">Wougomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">229</column>
+            <column name="nom">Sagbado Avoème</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">230</column>
+            <column name="nom">Sagbado Logoté</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">231</column>
+            <column name="nom">Sagbado Sakani</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">232</column>
+            <column name="nom">Sagbado Kpéssoudji</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">233</column>
+            <column name="nom">Sagbado Avoèm</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">234</column>
+            <column name="nom">Lankouvi Avoèm</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">235</column>
+            <column name="nom">Lankouvi Kpéssoudji</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">236</column>
+            <column name="nom">Lankouvi Hodor</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">237</column>
+            <column name="nom">Yokoè Kopégan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">238</column>
+            <column name="nom">Yokoè Agblégan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">239</column>
+            <column name="nom">Gblinkomegan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">240</column>
+            <column name="nom">Apédokoè Gbomame</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">241</column>
+            <column name="nom">Apédokoè Agokpanou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">242</column>
+            <column name="nom">Awatame</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">243</column>
+            <column name="nom">Wonyome</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">244</column>
+            <column name="nom">Agotime</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">245</column>
+            <column name="nom">Zanvi</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+        <table name="quartiers">
+            <column name="id">246</column>
+            <column name="nom">Ablogome</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="commune_id">101</column>
+        </table>
+    </database>
+</pma_xml_export>
