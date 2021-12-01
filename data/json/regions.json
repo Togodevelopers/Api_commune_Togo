@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nom": "Savanes",
+        "latitude": null,
+        "longitude": null,
+        "superficie": null
+    },
+    {
+        "id": 2,
+        "nom": "Kara",
+        "latitude": null,
+        "longitude": null,
+        "superficie": null
+    },
+    {
+        "id": 3,
+        "nom": "Centrale",
+        "latitude": null,
+        "longitude": null,
+        "superficie": null
+    },
+    {
+        "id": 4,
+        "nom": "Plateaux",
+        "latitude": null,
+        "longitude": null,
+        "superficie": null
+    },
+    {
+        "id": 5,
+        "nom": "Maritime",
+        "latitude": null,
+        "longitude": null,
+        "superficie": null
+    }
+]

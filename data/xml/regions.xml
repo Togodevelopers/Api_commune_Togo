@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Nov 30, 2021 at 05:18 PM
+- Server version: 10.3.31-MariaDB-0ubuntu0.20.04.1
+- PHP Version: 7.4.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="togo_subdivisions" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="regions">
+                CREATE TABLE `regions` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `code` varchar(4) NOT NULL,
+                  `nom` varchar(25) NOT NULL,
+                  `latitude` double DEFAULT NULL,
+                  `longitude` double DEFAULT NULL,
+                  `superficie` double DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `nom` (`nom`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'togo_subdivisions'
+    -->
+    <database name="togo_subdivisions">
+        <!-- Table regions -->
+        <table name="regions">
+            <column name="id">1</column>
+            <column name="code">TG-S</column>
+            <column name="nom">Savanes</column>
+            <column name="latitude">10.5291781</column>
+            <column name="longitude">0.5257823</column>
+            <column name="superficie">8602</column>
+        </table>
+        <table name="regions">
+            <column name="id">2</column>
+            <column name="code">TG-K</column>
+            <column name="nom">Kara</column>
+            <column name="latitude">9.55111</column>
+            <column name="longitude">1.18611</column>
+            <column name="superficie">NULL</column>
+        </table>
+        <table name="regions">
+            <column name="id">3</column>
+            <column name="code">TG-C</column>
+            <column name="nom">Centrale</column>
+            <column name="latitude">8.66667</column>
+            <column name="longitude">1</column>
+            <column name="superficie">NULL</column>
+        </table>
+        <table name="regions">
+            <column name="id">4</column>
+            <column name="code">TG-P</column>
+            <column name="nom">Plateaux</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+        </table>
+        <table name="regions">
+            <column name="id">5</column>
+            <column name="code">TG-M</column>
+            <column name="nom">Maritime</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="superficie">NULL</column>
+        </table>
+    </database>
+</pma_xml_export>

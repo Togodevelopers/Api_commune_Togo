@@ -1,0 +1,1055 @@
+[
+   {
+      "id": 1,
+      "nom": "Cinkassé 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 1
+   },
+   {
+      "id": 2,
+      "nom": "Cinkassé 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 1
+   },
+   {
+      "id": 3,
+      "nom": "Kpendjal 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 2
+   },
+   {
+      "id": 4,
+      "nom": "Kpendjal 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 2
+   },
+   {
+      "id": 5,
+      "nom": "Kpendjal-Ouest 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 3
+   },
+   {
+      "id": 6,
+      "nom": "Kpendjal-Ouest 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 3
+   },
+   {
+      "id": 7,
+      "nom": "Oti 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 4
+   },
+   {
+      "id": 8,
+      "nom": "Oti 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 4
+   },
+   {
+      "id": 9,
+      "nom": "Oti-Sud 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 5
+   },
+   {
+      "id": 10,
+      "nom": "Oti-Sud 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 5
+   },
+   {
+      "id": 11,
+      "nom": "Tandjoaré 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 6
+   },
+   {
+      "id": 12,
+      "nom": "Tandjoaré 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 6
+   },
+   {
+      "id": 13,
+      "nom": "Tône 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 7
+   },
+   {
+      "id": 14,
+      "nom": "Tône 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 7
+   },
+   {
+      "id": 15,
+      "nom": "Tône 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 7
+   },
+   {
+      "id": 16,
+      "nom": "Tône 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 7
+   },
+   {
+      "id": 17,
+      "nom": "Assoli 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 8
+   },
+   {
+      "id": 18,
+      "nom": "Assoli 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 8
+   },
+   {
+      "id": 19,
+      "nom": "Assoli 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 8
+   },
+   {
+      "id": 20,
+      "nom": "Bassar 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 9
+   },
+   {
+      "id": 21,
+      "nom": "Bassar 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 9
+   },
+   {
+      "id": 22,
+      "nom": "Bassar 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 9
+   },
+   {
+      "id": 23,
+      "nom": "Bassar 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 9
+   },
+   {
+      "id": 24,
+      "nom": "Binah 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 10
+   },
+   {
+      "id": 25,
+      "nom": "Binah 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 10
+   },
+   {
+      "id": 26,
+      "nom": "Dankpen 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 11
+   },
+   {
+      "id": 27,
+      "nom": "Dankpen 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 11
+   },
+   {
+      "id": 28,
+      "nom": "Dankpen 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 11
+   },
+   {
+      "id": 29,
+      "nom": "Doufelgou 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 12
+   },
+   {
+      "id": 30,
+      "nom": "Doufelgou 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 12
+   },
+   {
+      "id": 31,
+      "nom": "Doufelgou 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 12
+   },
+   {
+      "id": 32,
+      "nom": "Kéran 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 13
+   },
+   {
+      "id": 33,
+      "nom": "Kéran 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 13
+   },
+   {
+      "id": 34,
+      "nom": "Kéran 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 13
+   },
+   {
+      "id": 35,
+      "nom": "Kozah 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 14
+   },
+   {
+      "id": 36,
+      "nom": "Kozah 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 14
+   },
+   {
+      "id": 37,
+      "nom": "Kozah 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 14
+   },
+   {
+      "id": 38,
+      "nom": "Kozah 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 14
+   },
+   {
+      "id": 39,
+      "nom": "Blitta 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 15
+   },
+   {
+      "id": 40,
+      "nom": "Blitta 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 15
+   },
+   {
+      "id": 41,
+      "nom": "Blitta 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 15
+   },
+   {
+      "id": 42,
+      "nom": "Sotouboua 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 16
+   },
+   {
+      "id": 43,
+      "nom": "Sotouboua 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 16
+   },
+   {
+      "id": 44,
+      "nom": "Sotouboua 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 16
+   },
+   {
+      "id": 45,
+      "nom": "Tchamba 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 17
+   },
+   {
+      "id": 46,
+      "nom": "Tchamba 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 17
+   },
+   {
+      "id": 47,
+      "nom": "Tchamba 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 17
+   },
+   {
+      "id": 48,
+      "nom": "Tchaoudjo 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 18
+   },
+   {
+      "id": 49,
+      "nom": "Tchaoudjo 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 18
+   },
+   {
+      "id": 50,
+      "nom": "Tchaoudjo 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 18
+   },
+   {
+      "id": 51,
+      "nom": "Tchaoudjo 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 18
+   },
+   {
+      "id": 52,
+      "nom": "Mô 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 19
+   },
+   {
+      "id": 53,
+      "nom": "Mô 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 19
+   },
+   {
+      "id": 54,
+      "nom": "Agou 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 20
+   },
+   {
+      "id": 55,
+      "nom": "Agou 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 20
+   },
+   {
+      "id": 56,
+      "nom": "Akébou 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 21
+   },
+   {
+      "id": 57,
+      "nom": "Akébou 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 21
+   },
+   {
+      "id": 58,
+      "nom": "Amou 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 22
+   },
+   {
+      "id": 59,
+      "nom": "Amou 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 22
+   },
+   {
+      "id": 60,
+      "nom": "Anié 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 23
+   },
+   {
+      "id": 61,
+      "nom": "Anié 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 23
+   },
+   {
+      "id": 62,
+      "nom": "Danyi 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 24
+   },
+   {
+      "id": 63,
+      "nom": "Danyi 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 24
+   },
+   {
+      "id": 64,
+      "nom": "Est-Mono 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 25
+   },
+   {
+      "id": 65,
+      "nom": "Est-Mono 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 25
+   },
+   {
+      "id": 66,
+      "nom": "Est-Mono 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 25
+   },
+   {
+      "id": 67,
+      "nom": "Haho 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 26
+   },
+   {
+      "id": 68,
+      "nom": "Haho 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 26
+   },
+   {
+      "id": 69,
+      "nom": "Haho 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 26
+   },
+   {
+      "id": 70,
+      "nom": "Haho 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 26
+   },
+   {
+      "id": 71,
+      "nom": "Kloto 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 27
+   },
+   {
+      "id": 72,
+      "nom": "Kloto 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 27
+   },
+   {
+      "id": 73,
+      "nom": "Kloto 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 27
+   },
+   {
+      "id": 74,
+      "nom": "Kpélé 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 28
+   },
+   {
+      "id": 75,
+      "nom": "Kpélé 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 28
+   },
+   {
+      "id": 76,
+      "nom": "Moyen-Mono 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 29
+   },
+   {
+      "id": 77,
+      "nom": "Moyen-Mono 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 29
+   },
+   {
+      "id": 78,
+      "nom": "Ogou 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 30
+   },
+   {
+      "id": 79,
+      "nom": "Ogou 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 30
+   },
+   {
+      "id": 80,
+      "nom": "Ogou 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 30
+   },
+   {
+      "id": 81,
+      "nom": "Ogou 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 30
+   },
+   {
+      "id": 82,
+      "nom": "Wawa 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 31
+   },
+   {
+      "id": 83,
+      "nom": "Wawa 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 31
+   },
+   {
+      "id": 84,
+      "nom": "Wawa 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 31
+   },
+   {
+      "id": 85,
+      "nom": "Agoè-Nyivé 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 32
+   },
+   {
+      "id": 86,
+      "nom": "Agoè-Nyivé 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 32
+   },
+   {
+      "id": 87,
+      "nom": "Agoè-Nyivé 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 32
+   },
+   {
+      "id": 88,
+      "nom": "Agoè-Nyivé 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 32
+   },
+   {
+      "id": 89,
+      "nom": "Agoè-Nyivé 5",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 32
+   },
+   {
+      "id": 90,
+      "nom": "Agoè-Nyivé 6",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 32
+   },
+   {
+      "id": 91,
+      "nom": "Avé 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 33
+   },
+   {
+      "id": 92,
+      "nom": "Avé 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 33
+   },
+   {
+      "id": 93,
+      "nom": "Bas-Mono 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 34
+   },
+   {
+      "id": 94,
+      "nom": "Bas-Mono 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 34
+   },
+   {
+      "id": 95,
+      "nom": "Golfe 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 35
+   },
+   {
+      "id": 96,
+      "nom": "Golfe 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 35
+   },
+   {
+      "id": 97,
+      "nom": "Golfe 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 35
+   },
+   {
+      "id": 98,
+      "nom": "Golfe 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 35
+   },
+   {
+      "id": 99,
+      "nom": "Golfe 5",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 35
+   },
+   {
+      "id": 100,
+      "nom": "Golfe 6",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 35
+   },
+   {
+      "id": 101,
+      "nom": "Golfe 7",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 35
+   },
+   {
+      "id": 102,
+      "nom": "Lacs 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 36
+   },
+   {
+      "id": 103,
+      "nom": "Lacs 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 36
+   },
+   {
+      "id": 104,
+      "nom": "Lacs 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 36
+   },
+   {
+      "id": 105,
+      "nom": "Lacs 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 36
+   },
+   {
+      "id": 106,
+      "nom": "Vo 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 37
+   },
+   {
+      "id": 107,
+      "nom": "Vo 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 37
+   },
+   {
+      "id": 108,
+      "nom": "Vo 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 37
+   },
+   {
+      "id": 109,
+      "nom": "Vo 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 37
+   },
+   {
+      "id": 110,
+      "nom": "Yoto 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 38
+   },
+   {
+      "id": 111,
+      "nom": "Yoto 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 38
+   },
+   {
+      "id": 112,
+      "nom": "Yoto 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 38
+   },
+   {
+      "id": 113,
+      "nom": "Zio 1",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 39
+   },
+   {
+      "id": 114,
+      "nom": "Zio 2",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 39
+   },
+   {
+      "id": 115,
+      "nom": "Zio 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 39
+   },
+   {
+      "id": 116,
+      "nom": "Zio 4",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 39
+   },
+   {
+      "id": 117,
+      "nom": "Amou 3",
+      "latitude": null,
+      "longitude": null,
+      "population": null,
+      "superficie": null,
+      "prefecture_id": 22
+   }
+]
