@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "nom": "Lomé",
+        "superficie": 90,
+        "population": 2133579,
+        "region_id": 5
+    },
+    {
+        "id": 2,
+        "nom": "Sokodé",
+        "superficie": null,
+        "population": null,
+        "region_id": 3
+    },
+    {
+        "id": 3,
+        "nom": "Kara",
+        "superficie": 11630,
+        "population": null,
+        "region_id": 2
+    },
+    {
+        "id": 4,
+        "nom": "Kpalimé",
+        "superficie": null,
+        "population": null,
+        "region_id": 4
+    },
+    {
+        "id": 5,
+        "nom": "Atakpamé",
+        "superficie": null,
+        "population": null,
+        "region_id": 4
+    },
+    {
+        "id": 6,
+        "nom": "Bassar",
+        "superficie": null,
+        "population": null,
+        "region_id": 2
+    },
+    {
+        "id": 7,
+        "nom": "Tsévié",
+        "superficie": null,
+        "population": null,
+        "region_id": 5
+    },
+    {
+        "id": 8,
+        "nom": "Aného",
+        "superficie": null,
+        "population": null,
+        "region_id": 5
+    },
+    {
+        "id": 9,
+        "nom": "Mango",
+        "superficie": null,
+        "population": null,
+        "region_id": 1
+    },
+    {
+        "id": 10,
+        "nom": "Dapaong",
+        "superficie": null,
+        "population": null,
+        "region_id": 1
+    },
+    {
+        "id": 11,
+        "nom": "Tchamba",
+        "superficie": null,
+        "population": null,
+        "region_id": 3
+    },
+    {
+        "id": 12,
+        "nom": "Niamtougou",
+        "superficie": null,
+        "population": null,
+        "region_id": 2
+    },
+    {
+        "id": 13,
+        "nom": "Bafilo",
+        "superficie": null,
+        "population": null,
+        "region_id": 2
+    },
+    {
+        "id": 14,
+        "nom": "Notsé",
+        "superficie": null,
+        "population": null,
+        "region_id": 4
+    },
+    {
+        "id": 15,
+        "nom": "Sotouboua",
+        "superficie": null,
+        "population": null,
+        "region_id": 3
+    },
+    {
+        "id": 16,
+        "nom": "Vogan",
+        "superficie": null,
+        "population": null,
+        "region_id": 5
+    },
+    {
+        "id": 17,
+        "nom": "Badou",
+        "superficie": null,
+        "population": null,
+        "region_id": 4
+    },
+    {
+        "id": 18,
+        "nom": "Biankouri",
+        "superficie": null,
+        "population": null,
+        "region_id": 1
+    },
+    {
+        "id": 19,
+        "nom": "Tabligbo",
+        "superficie": null,
+        "population": null,
+        "region_id": 5
+    },
+    {
+        "id": 20,
+        "nom": "Kanté",
+        "superficie": null,
+        "population": null,
+        "region_id": 2
+    },
+    {
+        "id": 21,
+        "nom": "Amlamé",
+        "superficie": null,
+        "population": null,
+        "region_id": 4
+    },
+    {
+        "id": 22,
+        "nom": "Galangachi",
+        "superficie": null,
+        "population": null,
+        "region_id": 1
+    },
+    {
+        "id": 23,
+        "nom": "Kpagouda",
+        "superficie": null,
+        "population": null,
+        "region_id": 2
+    }
+]

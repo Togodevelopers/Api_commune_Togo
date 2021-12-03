@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "code": "TG-S",
+        "nom": "Savanes",
+        "latitude": 10.52917,
+        "longitude": 0.5257823,
+        "population": 1017100,
+        "superficie": 8400
+    },
+    {
+        "id": 2,
+        "code": "TG-K",
+        "nom": "Kara",
+        "latitude": 9.55111,
+        "longitude": 1.18611,
+        "population": 957600,
+        "superficie": 11738
+    },
+    {
+        "id": 3,
+        "code": "TG-C",
+        "nom": "Centrale",
+        "latitude": 8.66667,
+        "longitude": 1.0,
+        "population": 768100,
+        "superficie": 13317
+    },
+    {
+        "id": 4,
+        "code": "TG-P",
+        "nom": "Plateaux",
+        "latitude": 7.5,
+        "longitude": 1.16667,
+        "population": 1705300,
+        "superficie": 16975
+    },
+    {
+        "id": 5,
+        "code": "TG-M",
+        "nom": "Maritime",
+        "latitude": 6.5,
+        "longitude": 1.33333,
+        "population": 3258300,
+        "superficie": 610
+    }
+]

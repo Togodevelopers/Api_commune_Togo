@@ -1,0 +1,6 @@
+"id","code","nom","latitude","longitude","superficie"
+"1","TG-S","Savanes","10.5291781","0.5257823","8602"
+"2","TG-K","Kara","9.55111","1.18611",NULL
+"3","TG-C","Centrale","8.66667","1",NULL
+"4","TG-P","Plateaux",NULL,NULL,NULL
+"5","TG-M","Maritime",NULL,NULL,NULL

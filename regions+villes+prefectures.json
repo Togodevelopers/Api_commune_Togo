@@ -1,0 +1,524 @@
+[
+    {
+        "id": 1,
+        "code": "TG-S",
+        "nom": "Savanes",
+        "latitude": 10.5291781,
+        "longitude": 0.5257823,
+        "population": 1017100,
+        "superficie": 8400,
+        "villes": [
+            {
+                "id": 9,
+                "nom": "Mango",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 10,
+                "nom": "Dapaong",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 18,
+                "nom": "Biankouri",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 22,
+                "nom": "Galangachi",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            }
+        ],
+        "prefectures": [
+            {
+                "id": "1",
+                "nom": "Cinkassé",
+                "chef_lieu": "Cinkassé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "2",
+                "nom": "Kpendjal",
+                "chef_lieu": "Mandouri",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "3",
+                "nom": "Kpendjal-Ouest",
+                "chef_lieu": "Naki-Est",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "4",
+                "nom": "Oti",
+                "chef_lieu": "Mango",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "5",
+                "nom": "Oti-Sud",
+                "chef_lieu": "Gando",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "6",
+                "nom": "Tandjouaré",
+                "chef_lieu": "Tandjouaré",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "7",
+                "nom": "Tône",
+                "chef_lieu": "Dapaong",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "code": "TG-K",
+        "nom": "Kara",
+        "latitude": 9.55111,
+        "longitude": 1.18611,
+        "population": 957600,
+        "superficie": 11738,
+        "villes": [
+            {
+                "id": 3,
+                "nom": "Kara",
+                "superficie": 11630,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 6,
+                "nom": "Bassar",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 12,
+                "nom": "Niamtougou",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 13,
+                "nom": "Bafilo",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 20,
+                "nom": "Kanté",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 23,
+                "nom": "Kpagouda",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            }
+        ],
+        "prefectures": [
+            {
+                "id": "8",
+                "nom": "Assoli",
+                "chef_lieu": "Bafilo",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "9",
+                "nom": "Bassar",
+                "chef_lieu": "Bassar",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "10",
+                "nom": "Binah",
+                "chef_lieu": "Pagouda",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "11",
+                "nom": "Dankpen",
+                "chef_lieu": "Gérin-kouka",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "12",
+                "nom": "Doufelgou",
+                "chef_lieu": "Niamtougou",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "13",
+                "nom": "Kéran",
+                "chef_lieu": "Kanté",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "14",
+                "nom": "Kozah",
+                "chef_lieu": "Kara",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "code": "TG-C",
+        "nom": "Centrale",
+        "latitude": 8.66667,
+        "longitude": 1,
+        "population": 768100,
+        "superficie": 13317,
+        "villes": [
+            {
+                "id": 2,
+                "nom": "Sokodé",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 11,
+                "nom": "Tchamba",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 15,
+                "nom": "Sotouboua",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            }
+        ],
+        "prefectures": [
+            {
+                "id": "15",
+                "nom": "Blitta",
+                "chef_lieu": "Blitta",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "16",
+                "nom": "Sotouboua",
+                "chef_lieu": "Sotouboua",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "17",
+                "nom": "Tchamba",
+                "chef_lieu": "Tchamba",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "18",
+                "nom": "Tchaoudjo",
+                "chef_lieu": "Sokodé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "19",
+                "nom": "Mô",
+                "chef_lieu": "Djarkpanga",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "code": "TG-P",
+        "nom": "Plateaux",
+        "latitude": 7.5,
+        "longitude": 1.16667,
+        "population": 1705300,
+        "superficie": 16975,
+        "villes": [
+            {
+                "id": 4,
+                "nom": "Kpalimé",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 5,
+                "nom": "Atakpamé",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 14,
+                "nom": "Notsé",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 17,
+                "nom": "Badou",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 21,
+                "nom": "Amlamé",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            }
+        ],
+        "prefectures": [
+            {
+                "id": "20",
+                "nom": "Agou",
+                "chef_lieu": "Agou-Gadzépé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "21",
+                "nom": "Akébou",
+                "chef_lieu": "Kougnohou",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "22",
+                "nom": "Amou",
+                "chef_lieu": "Amlamé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "23",
+                "nom": "Anié",
+                "chef_lieu": "Anié",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "24",
+                "nom": "Danyi",
+                "chef_lieu": "Danyi-Apéyémé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "25",
+                "nom": "Est-Mono",
+                "chef_lieu": "Elavagnon",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "26",
+                "nom": "Haho",
+                "chef_lieu": "Notsè",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "27",
+                "nom": "Kloto",
+                "chef_lieu": "Kpalimé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "28",
+                "nom": "Kpélé",
+                "chef_lieu": "Adéta",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "29",
+                "nom": "Moyen-Mono",
+                "chef_lieu": "Tohoun",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "30",
+                "nom": "Ogou",
+                "chef_lieu": "Atakpamé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "31",
+                "nom": "Wawa",
+                "chef_lieu": "Badou",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "code": "TG-M",
+        "nom": "Maritime",
+        "latitude": 6.5,
+        "longitude": 1.33333,
+        "population": 3258300,
+        "superficie": 6100,
+        "villes": [
+            {
+                "id": 1,
+                "nom": "Lomé",
+                "superficie": 90,
+                "population": 2133579,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 7,
+                "nom": "Tsévié",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 8,
+                "nom": "Aného",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 16,
+                "nom": "Vogan",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            },
+            {
+                "id": 19,
+                "nom": "Tabligbo",
+                "superficie": 0,
+                "population": 0,
+                "latitude": 0,
+                "longitude": 0
+            }
+        ],
+        "prefectures": [
+            {
+                "id": "32",
+                "nom": "Agouè-Nyivé",
+                "chef_lieu": "Agouè-Nyivé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "33",
+                "nom": "Avé",
+                "chef_lieu": "Kévé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "34",
+                "nom": "Bas-Mono",
+                "chef_lieu": "Afagnan",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "35",
+                "nom": "Golfe",
+                "chef_lieu": "Lomé",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "36",
+                "nom": "Lacs",
+                "chef_lieu": "Aného",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "37",
+                "nom": "Vo",
+                "chef_lieu": "Vogan",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "38",
+                "nom": "Yoto",
+                "chef_lieu": "Tabligbo",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "id": "39",
+                "nom": "Zio",
+                "chef_lieu": "Tsévié",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Nov 30, 2021 at 05:19 PM
+- Server version: 10.3.31-MariaDB-0ubuntu0.20.04.1
+- PHP Version: 7.4.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="togo_subdivisions" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="prefectures">
+                CREATE TABLE `prefectures` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `nom` varchar(30) NOT NULL,
+                  `chef_lieu` varchar(25) NOT NULL,
+                  `latitude` double DEFAULT NULL,
+                  `longitude` double DEFAULT NULL,
+                  `region_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `nom` (`nom`),
+                  KEY `region_id` (`region_id`),
+                  CONSTRAINT `prefectures_ibfk_1` FOREIGN KEY (`region_id`) REFERENCES `regions` (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'togo_subdivisions'
+    -->
+    <database name="togo_subdivisions">
+        <!-- Table prefectures -->
+        <table name="prefectures">
+            <column name="id">1</column>
+            <column name="nom">Cinkassé</column>
+            <column name="chef_lieu">Cinkassé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">2</column>
+            <column name="nom">Kpendjal</column>
+            <column name="chef_lieu">Mandouri</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">3</column>
+            <column name="nom">Kpendjal-Ouest</column>
+            <column name="chef_lieu">Naki-Est</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">4</column>
+            <column name="nom">Oti</column>
+            <column name="chef_lieu">Mango</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">5</column>
+            <column name="nom">Oti-Sud</column>
+            <column name="chef_lieu">Gando</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">6</column>
+            <column name="nom">Tandjouaré</column>
+            <column name="chef_lieu">Tandjouaré</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">7</column>
+            <column name="nom">Tône</column>
+            <column name="chef_lieu">Dapaong</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">8</column>
+            <column name="nom">Assoli</column>
+            <column name="chef_lieu">Bafilo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">9</column>
+            <column name="nom">Bassar</column>
+            <column name="chef_lieu">Bassar</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">10</column>
+            <column name="nom">Binah</column>
+            <column name="chef_lieu">Pagouda</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">11</column>
+            <column name="nom">Dankpen</column>
+            <column name="chef_lieu">Gérin-kouka</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">12</column>
+            <column name="nom">Doufelgou</column>
+            <column name="chef_lieu">Niamtougou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">13</column>
+            <column name="nom">Kéran</column>
+            <column name="chef_lieu">Kanté</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">14</column>
+            <column name="nom">Kozah</column>
+            <column name="chef_lieu">Kara</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">15</column>
+            <column name="nom">Blitta</column>
+            <column name="chef_lieu">Blitta</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">16</column>
+            <column name="nom">Sotouboua</column>
+            <column name="chef_lieu">Sotouboua</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">17</column>
+            <column name="nom">Tchamba</column>
+            <column name="chef_lieu">Tchamba</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">18</column>
+            <column name="nom">Tchaoudjo</column>
+            <column name="chef_lieu">Sokodé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">19</column>
+            <column name="nom">Mô</column>
+            <column name="chef_lieu">Djarkpanga</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">20</column>
+            <column name="nom">Agou</column>
+            <column name="chef_lieu">Agou-Gadzépé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">21</column>
+            <column name="nom">Akébou</column>
+            <column name="chef_lieu">Kougnohou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">22</column>
+            <column name="nom">Amou</column>
+            <column name="chef_lieu">Amlamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">23</column>
+            <column name="nom">Anié</column>
+            <column name="chef_lieu">Anié</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">24</column>
+            <column name="nom">Danyi</column>
+            <column name="chef_lieu">Danyi-Apéyémé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">25</column>
+            <column name="nom">Est-Mono</column>
+            <column name="chef_lieu">Elavagnon</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">26</column>
+            <column name="nom">Haho</column>
+            <column name="chef_lieu">Notsè</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">27</column>
+            <column name="nom">Kloto</column>
+            <column name="chef_lieu">Kpalimé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">28</column>
+            <column name="nom">Kpélé</column>
+            <column name="chef_lieu">Adéta</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">29</column>
+            <column name="nom">Moyen-Mono</column>
+            <column name="chef_lieu">Tohoun</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">30</column>
+            <column name="nom">Ogou</column>
+            <column name="chef_lieu">Atakpamé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">31</column>
+            <column name="nom">Wawa</column>
+            <column name="chef_lieu">Badou</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">32</column>
+            <column name="nom">Agouè-Nyivé</column>
+            <column name="chef_lieu">Agouè-Nyivé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">33</column>
+            <column name="nom">Avé</column>
+            <column name="chef_lieu">Kévé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">34</column>
+            <column name="nom">Bas-Mono</column>
+            <column name="chef_lieu">Afagnan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">35</column>
+            <column name="nom">Golfe</column>
+            <column name="chef_lieu">Lomé</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">36</column>
+            <column name="nom">Lacs</column>
+            <column name="chef_lieu">Aného</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">37</column>
+            <column name="nom">Vo</column>
+            <column name="chef_lieu">Vogan</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">38</column>
+            <column name="nom">Yoto</column>
+            <column name="chef_lieu">Tabligbo</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="prefectures">
+            <column name="id">39</column>
+            <column name="nom">Zio</column>
+            <column name="chef_lieu">Tsévié</column>
+            <column name="latitude">NULL</column>
+            <column name="longitude">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+    </database>
+</pma_xml_export>

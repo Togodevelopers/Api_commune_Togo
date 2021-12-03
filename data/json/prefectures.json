@@ -1,0 +1,314 @@
+[
+    {
+        "id": 1,
+        "nom": "Cinkassé",
+        "chef_lieu": "Cinkassé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 1
+    },
+    {
+        "id": 2,
+        "nom": "Kpendjal",
+        "chef_lieu": "Mandouri",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 1
+    },
+    {
+        "id": 3,
+        "nom": "Kpendjal-Ouest",
+        "chef_lieu": "Naki-Est",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 1
+    },
+    {
+        "id": 4,
+        "nom": "Oti",
+        "chef_lieu": "Mango",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 1
+    },
+    {
+        "id": 5,
+        "nom": "Oti-Sud",
+        "chef_lieu": "Gando",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 1
+    },
+    {
+        "id": 6,
+        "nom": "Tandjouaré",
+        "chef_lieu": "Tandjouaré",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 1
+    },
+    {
+        "id": 7,
+        "nom": "Tône",
+        "chef_lieu": "Dapaong",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 1
+    },
+    {
+        "id": 8,
+        "nom": "Assoli",
+        "chef_lieu": "Bafilo",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 2
+    },
+    {
+        "id": 9,
+        "nom": "Bassar",
+        "chef_lieu": "Bassar",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 2
+    },
+    {
+        "id": 10,
+        "nom": "Binah",
+        "chef_lieu": "Pagouda",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 2
+    },
+    {
+        "id": 11,
+        "nom": "Dankpen",
+        "chef_lieu": "Gérin-kouka",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 2
+    },
+    {
+        "id": 12,
+        "nom": "Doufelgou",
+        "chef_lieu": "Niamtougou",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 2
+    },
+    {
+        "id": 13,
+        "nom": "Kéran",
+        "chef_lieu": "Kanté",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 2
+    },
+    {
+        "id": 14,
+        "nom": "Kozah",
+        "chef_lieu": "Kara",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 2
+    },
+    {
+        "id": 15,
+        "nom": "Blitta",
+        "chef_lieu": "Blitta",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 3
+    },
+    {
+        "id": 16,
+        "nom": "Sotouboua",
+        "chef_lieu": "Sotouboua",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 3
+    },
+    {
+        "id": 17,
+        "nom": "Tchamba",
+        "chef_lieu": "Tchamba",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 3
+    },
+    {
+        "id": 18,
+        "nom": "Tchaoudjo",
+        "chef_lieu": "Sokodé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 3
+    },
+    {
+        "id": 19,
+        "nom": "Mô",
+        "chef_lieu": "Djarkpanga",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 3
+    },
+    {
+        "id": 20,
+        "nom": "Agou",
+        "chef_lieu": "Agou-Gadzépé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 21,
+        "nom": "Akébou",
+        "chef_lieu": "Kougnohou",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 22,
+        "nom": "Amou",
+        "chef_lieu": "Amlamé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 23,
+        "nom": "Anié",
+        "chef_lieu": "Anié",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 24,
+        "nom": "Danyi",
+        "chef_lieu": "Danyi-Apéyémé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 25,
+        "nom": "Est-Mono",
+        "chef_lieu": "Elavagnon",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 26,
+        "nom": "Haho",
+        "chef_lieu": "Notsè",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 27,
+        "nom": "Kloto",
+        "chef_lieu": "Kpalimé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 28,
+        "nom": "Kpélé",
+        "chef_lieu": "Adéta",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 29,
+        "nom": "Moyen-Mono",
+        "chef_lieu": "Tohoun",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 30,
+        "nom": "Ogou",
+        "chef_lieu": "Atakpamé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 31,
+        "nom": "Wawa",
+        "chef_lieu": "Badou",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 4
+    },
+    {
+        "id": 32,
+        "nom": "Agouè-Nyivé",
+        "chef_lieu": "Agouè-Nyivé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    },
+    {
+        "id": 33,
+        "nom": "Avé",
+        "chef_lieu": "Kévé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    },
+    {
+        "id": 34,
+        "nom": "Bas-Mono",
+        "chef_lieu": "Afagnan",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    },
+    {
+        "id": 35,
+        "nom": "Golfe",
+        "chef_lieu": "Lomé",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    },
+    {
+        "id": 36,
+        "nom": "Lacs",
+        "chef_lieu": "Aného",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    },
+    {
+        "id": 37,
+        "nom": "Vo",
+        "chef_lieu": "Vogan",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    },
+    {
+        "id": 38,
+        "nom": "Yoto",
+        "chef_lieu": "Tabligbo",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    },
+    {
+        "id": 39,
+        "nom": "Zio",
+        "chef_lieu": "Tsévié",
+        "latitude": null,
+        "longitude": null,
+        "region_id": 5
+    }
+]

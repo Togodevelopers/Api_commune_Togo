@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Nov 30, 2021 at 05:17 PM
+- Server version: 10.3.31-MariaDB-0ubuntu0.20.04.1
+- PHP Version: 7.4.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="togo_subdivisions" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="villes">
+                CREATE TABLE `villes` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `nom` varchar(25) NOT NULL,
+                  `superficie` double DEFAULT NULL,
+                  `population` double DEFAULT NULL,
+                  `region_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `region_id` (`region_id`),
+                  CONSTRAINT `villes_ibfk_1` FOREIGN KEY (`region_id`) REFERENCES `regions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+                ) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'togo_subdivisions'
+    -->
+    <database name="togo_subdivisions">
+        <!-- Table villes -->
+        <table name="villes">
+            <column name="id">1</column>
+            <column name="nom">Lomé</column>
+            <column name="superficie">90</column>
+            <column name="population">2133579</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="villes">
+            <column name="id">2</column>
+            <column name="nom">Sokodé</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="villes">
+            <column name="id">3</column>
+            <column name="nom">Kara</column>
+            <column name="superficie">11630</column>
+            <column name="population">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="villes">
+            <column name="id">4</column>
+            <column name="nom">Kpalimé</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="villes">
+            <column name="id">5</column>
+            <column name="nom">Atakpamé</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="villes">
+            <column name="id">6</column>
+            <column name="nom">Bassar</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="villes">
+            <column name="id">7</column>
+            <column name="nom">Tsévié</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="villes">
+            <column name="id">8</column>
+            <column name="nom">Aného</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="villes">
+            <column name="id">9</column>
+            <column name="nom">Mango</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="villes">
+            <column name="id">10</column>
+            <column name="nom">Dapaong</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="villes">
+            <column name="id">11</column>
+            <column name="nom">Tchamba</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="villes">
+            <column name="id">12</column>
+            <column name="nom">Niamtougou</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="villes">
+            <column name="id">13</column>
+            <column name="nom">Bafilo</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="villes">
+            <column name="id">14</column>
+            <column name="nom">Notsé</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="villes">
+            <column name="id">15</column>
+            <column name="nom">Sotouboua</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">3</column>
+        </table>
+        <table name="villes">
+            <column name="id">16</column>
+            <column name="nom">Vogan</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="villes">
+            <column name="id">17</column>
+            <column name="nom">Badou</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="villes">
+            <column name="id">18</column>
+            <column name="nom">Biankouri</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="villes">
+            <column name="id">19</column>
+            <column name="nom">Tabligbo</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">5</column>
+        </table>
+        <table name="villes">
+            <column name="id">20</column>
+            <column name="nom">Kanté</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+        <table name="villes">
+            <column name="id">21</column>
+            <column name="nom">Amlamé</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">4</column>
+        </table>
+        <table name="villes">
+            <column name="id">22</column>
+            <column name="nom">Galangachi</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">1</column>
+        </table>
+        <table name="villes">
+            <column name="id">23</column>
+            <column name="nom">Kpagouda</column>
+            <column name="superficie">NULL</column>
+            <column name="population">NULL</column>
+            <column name="region_id">2</column>
+        </table>
+    </database>
+</pma_xml_export>
