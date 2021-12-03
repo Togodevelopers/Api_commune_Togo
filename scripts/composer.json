@@ -1,0 +1,17 @@
+{
+    "name": "gausoft/scripts",
+    "autoload": {
+        "psr-4": {
+            "Gausoft\\Scripts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gauthier EHOLOUM",
+            "email": "thiergau691@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
