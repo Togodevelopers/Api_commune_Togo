@@ -12,7 +12,7 @@ Ce qui suit est un ensemble de lignes directrices pour contribuer à Contribuer 
 3. Créer la base de données (togo_subdivisions)
 4. Importer les scripts sql (en insérant les tables de bases en premier)
 5. Faites des mises à jours via phpmyadmin
-6. Exporter les données au format appropré 
+6. Exporter les données au format approprié 
 7. Enregistrer les fichiers dans l'un des sous-repertoire de data
 8. Faites un pull request
 
