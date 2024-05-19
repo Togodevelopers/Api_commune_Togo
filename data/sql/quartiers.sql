@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : dim. 19 mai 2024 à 20:45
+-- Généré le : dim. 19 mai 2024 à 20:50
 -- Version du serveur : 8.0.36-0ubuntu0.22.04.1
 -- Version de PHP : 8.1.2-1ubuntu2.17
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `togo_communes`
+-- Base de données : `togo_subdivisions`
 --
 
 -- --------------------------------------------------------
