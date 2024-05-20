@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.1.1deb5ubuntu1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Dec 01, 2021 at 01:25 PM
--- Server version: 10.3.31-MariaDB-0ubuntu0.20.04.1
--- PHP Version: 7.4.3
+-- Hôte : localhost:3306
+-- Généré le : dim. 19 mai 2024 à 20:50
+-- Version du serveur : 8.0.36-0ubuntu0.22.04.1
+-- Version de PHP : 8.1.2-1ubuntu2.17
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,27 +18,27 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `togo_subdivisions`
+-- Base de données : `togo_subdivisions`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `quartiers`
+-- Structure de la table `quartiers`
 --
 
 CREATE TABLE `quartiers` (
-  `id` int(11) NOT NULL,
+  `id` int NOT NULL,
   `nom` varchar(255) NOT NULL,
   `latitude` double DEFAULT NULL,
   `longitude` double DEFAULT NULL,
   `superficie` double DEFAULT NULL,
   `population` double DEFAULT NULL,
-  `commune_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `commune_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Dumping data for table `quartiers`
+-- Déchargement des données de la table `quartiers`
 --
 
 INSERT INTO `quartiers` (`id`, `nom`, `latitude`, `longitude`, `superficie`, `population`, `commune_id`) VALUES
@@ -273,14 +273,36 @@ INSERT INTO `quartiers` (`id`, `nom`, `latitude`, `longitude`, `superficie`, `po
 (243, 'Wonyome', NULL, NULL, NULL, NULL, 101),
 (244, 'Agotime', NULL, NULL, NULL, NULL, 101),
 (245, 'Zanvi', NULL, NULL, NULL, NULL, 101),
-(246, 'Ablogome', NULL, NULL, NULL, NULL, 101);
+(246, 'Ablogome', NULL, NULL, NULL, NULL, 101),
+(247, 'Didaure', NULL, NULL, NULL, NULL, 48),
+(248, 'Kpangalam', NULL, NULL, NULL, NULL, 48),
+(249, 'Komah 1', NULL, NULL, NULL, NULL, 48),
+(250, 'Komah 2', NULL, NULL, NULL, NULL, 48),
+(251, 'Komah 3', NULL, NULL, NULL, NULL, 48),
+(252, 'Koulounde 1', NULL, NULL, NULL, NULL, 48),
+(253, 'Koulounde 2', NULL, NULL, NULL, NULL, 48),
+(254, 'Koulounde 3', NULL, NULL, NULL, NULL, 48),
+(255, 'Salimde 1', NULL, NULL, NULL, NULL, 48),
+(256, 'Salimde 2', NULL, NULL, NULL, NULL, 48),
+(257, 'Salimde 3', NULL, NULL, NULL, NULL, 48),
+(258, 'Tchawanda', NULL, NULL, NULL, NULL, 48),
+(259, 'Zongo', NULL, NULL, NULL, NULL, 48),
+(260, 'Kwawoi-Woro', NULL, NULL, NULL, NULL, 48),
+(261, 'Kpangalam-Zaire', NULL, NULL, NULL, NULL, 48),
+(262, 'Kédia', NULL, NULL, NULL, NULL, 48),
+(263, 'Akokodè', NULL, NULL, NULL, NULL, 48),
+(264, 'Bamabodolo', NULL, NULL, NULL, NULL, 48),
+(265, 'Bariki', NULL, NULL, NULL, NULL, 48),
+(266, 'Akamade', NULL, NULL, NULL, NULL, 48),
+(267, 'Kossobio', NULL, NULL, NULL, NULL, 48),
+(268, 'Barrière', NULL, NULL, NULL, NULL, 48);
 
 --
--- Indexes for dumped tables
+-- Index pour les tables déchargées
 --
 
 --
--- Indexes for table `quartiers`
+-- Index pour la table `quartiers`
 --
 ALTER TABLE `quartiers`
   ADD PRIMARY KEY (`id`),
@@ -288,21 +310,21 @@ ALTER TABLE `quartiers`
   ADD KEY `commune_id` (`commune_id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT pour les tables déchargées
 --
 
 --
--- AUTO_INCREMENT for table `quartiers`
+-- AUTO_INCREMENT pour la table `quartiers`
 --
 ALTER TABLE `quartiers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=247;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=269;
 
 --
--- Constraints for dumped tables
+-- Contraintes pour les tables déchargées
 --
 
 --
--- Constraints for table `quartiers`
+-- Contraintes pour la table `quartiers`
 --
 ALTER TABLE `quartiers`
   ADD CONSTRAINT `quartiers_ibfk_1` FOREIGN KEY (`commune_id`) REFERENCES `communes` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
